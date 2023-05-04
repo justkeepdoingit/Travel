@@ -1,0 +1,63 @@
+.image{
+    position: relative;
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.342);
+    border-radius: 10px;
+}
+.card-container{
+    padding: 20px;
+    width: 15%;
+    background-color: rgba(255, 255, 255, 0.021);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 200ms ease-in-out;
+    text-decoration: none;
+}
+.card-title{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.desc{
+    color: rgb(150, 150, 150);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.learn-more span{
+    color: var(--secondary);
+}
+.learn-more{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    height: 50px;
+    width: 50px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.342);
+    pointer-events: none;
+    translate: 0px 10px;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    text-decoration: none;
+}
+.card-container:hover{
+    background-color: rgba(255, 255, 255, 0.048);
+}
+.card-container:hover .learn-more{
+    opacity: 1;
+    pointer-events: auto;
+    translate: 0px 0px;
+}
+.learn-more:hover{
+    background-color: #11dd59;
+    scale: 1.1;
+}

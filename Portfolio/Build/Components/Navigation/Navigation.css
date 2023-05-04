@@ -1,0 +1,64 @@
+.navigation-row{
+    position: fixed !important;
+    transition: 300ms ease-in-out;
+    top: 0vw;
+    width: 100%;
+}
+.navigation-container{
+    display: flex;
+    padding: 30px;
+    width: min(90vw, 80%);
+    margin: auto;
+}
+.navigation-container > *:not(:nth-child(2)) {
+    flex: 1;
+    font-size: 1.rem;
+}
+.navigation-container > :nth-child(2){
+    flex: 2;
+}
+.navigation{
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    color: #fff;
+    font-size: 1.1rem
+}
+.cta-nav, .btn{
+    padding: 14px 10px 12px 10px;
+}
+.btn{
+    display: inline-block;
+    border-radius: 100px;
+    width: 5.5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    font-weight: 600;
+    color: white;
+    width: auto;
+}
+.btn:hover{
+    border-radius: 0px;
+}
+.primary{
+    background-color: var(--primary);
+    color: #333;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.cta-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.navigation-container .logo{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: var(--primary);
+}
+.scrolled{
+    background-color: #2b2424;
+}

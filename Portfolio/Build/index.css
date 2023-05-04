@@ -1,0 +1,62 @@
+@import url('./Components/Navigation/Navigation.css');
+@import url('./Modules/css/animations.css');
+@import url('./Components/Content/HeroContent.css');
+@import url('./Components/Cards/Cards.css');
+@import url('./Modules/css/fonts.css');
+@import url('./Components/Cards/Featured/Featured.css');
+html, body, p{
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+    font-family: 'Circular';
+}
+h1,h2{
+    font-family: 'Circular';
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+}
+:root{
+    --primary: #1DB954;
+    --secondary: hsl(0, 40%, 2%);
+    --light: #7A0BC0;
+    --pink: #FA58B6;
+}
+.container{
+    position: relative;
+    background-color: var(--secondary);
+    height: auto;
+}
+.hero-container > div:not(.overlay) {
+    position: relative;
+    z-index: 2;
+}
+.overlay{
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    backdrop-filter: blur(1px);
+    background-color: hsla(0, 0%, 0%, 0.438)
+}
+.loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    z-index: 3;
+    animation: 1s ease-in-out 1s close-loading forwards, 1s ease-in 1.5s close-landing2 forwards ;
+}
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-track {
+    background: var(--secondary);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 1px;
+}

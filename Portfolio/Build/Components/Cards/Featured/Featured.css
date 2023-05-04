@@ -1,0 +1,17 @@
+.title.featured{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.featured.container{
+    width: 90%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+.cards-collection{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.cards-collection > * {
+    flex: 1;
+}
