@@ -8,9 +8,13 @@
     box-shadow: 1px 4px 15px rgba(0, 0, 0, 0.342);
     border-radius: 10px;
 }
+.tall{
+    height: 250px;
+}
 .card-container{
     padding: 20px;
-    width: 15%;
+    flex-basis: 150px;
+    flex-grow: 1;
     background-color: rgba(255, 255, 255, 0.021);
     border-radius: 10px;
     cursor: pointer;

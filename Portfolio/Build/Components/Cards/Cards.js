@@ -1,5 +1,4 @@
-export const TravelCard = ({ image, title, desc }, index) => {
-  console.log(index);
+export const TravelCard = ({ image, title, desc, isLess = false }) => {
   return createEl(
     "a",
     {
@@ -13,7 +12,7 @@ export const TravelCard = ({ image, title, desc }, index) => {
         createEl(
           "div",
           {
-            class: "image",
+            class: `image ${isLess ? "tall" : ""}`,
             style: {
               backgroundImage: `url('${image}')`,
             },
@@ -22,16 +21,18 @@ export const TravelCard = ({ image, title, desc }, index) => {
         )
       ),
       createEl("p", { class: "card-title" }, title),
-      createEl("p", { class: "desc" }, shortenText(desc)),
+      createEl("p", { class: "desc" }, shortenText(desc, isLess)),
     ]
   );
 };
 
-const shortenText = (text) => {
+const shortenText = (text, isLess) => {
   let shortenText = "";
-  if (text.length < 40) return text;
+  let lessText = isLess ? 200 : 40;
 
-  for (let i = 0; i < 40; i++) {
+  if (text.length < lessText) return text;
+
+  for (let i = 0; i < lessText; i++) {
     shortenText += text[i];
   }
   shortenText += "...";

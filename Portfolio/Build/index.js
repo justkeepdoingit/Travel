@@ -23,8 +23,8 @@ App("main", [
   ]),
   Container("div", "container", [
     await FeaturedComponent({
-      title: "Waiting To Be Discovered",
-      filename: "discover.json",
+      title: "Your Top 3",
+      filename: "top3.json",
     }),
   ]),
 ]);

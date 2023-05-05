@@ -7,15 +7,13 @@ export const Featured = async ({ title, filename }) => {
     collection = data;
   });
 
-  let cardsCollection = collection.map((data, index) =>
-    TravelCardComponent(
-      {
-        image: data.image,
-        title: data.place,
-        desc: data.desc,
-      },
-      index
-    )
+  let cardsCollection = collection.map((data) =>
+    TravelCardComponent({
+      image: data.image,
+      title: data.place,
+      desc: data.desc,
+      isLess: collection.length < 4,
+    })
   );
 
   return Container("div", "featured container", [createEl("p", { class: "title featured" }, title), createEl("div", { class: "cards-collection" }, cardsCollection)]);

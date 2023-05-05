@@ -1,0 +1,17 @@
+[
+    {
+        "image": "./Resources/Assets/PopualWebP/Baguio.webp", 
+        "place": "Baguio", 
+        "desc": "Escape the Manila heat and travel to chilly Baguio. Find out the best time to go, how to go there and get around, must-see tourist spots, which restaurants to try, and more. Baguio is a mountain resort city located in Benguet of Northern Luzon, Philippines. Considered to be the country’s Summer Capital, Baguio is undoubtedly one of the top tourist destinations in the Philippines. Also nicknamed The City of Pines, it is a popular weekend getaway for local travelers based in the metro."
+    },
+    {
+        "image": "./Resources/Assets/PopualWebP/Batanes.webp", 
+        "place": "Batanes", 
+        "desc": "Remote and isolated, Batanes is the northernmost province in the Philippines. It’s a 10-piece archipelago, with the three biggest islands being the only ones inhabited: Sabtang, Batan, and Itbayat. Sabtang and Itbayat are their own municipalities, while Batan is further divided into Basco, Ivana, Uyugan, and Mahatao. Although it is the capital, Basco isn’t a city but a small town. It is also where the main airport is located and the most populated."
+    },
+    {
+        "image": "./Resources/Assets/PopualWebP/Bohol.webp", 
+        "place": "Bohol", 
+        "desc": "Bohol offers independent travellers a wealth of options both on and off the beaten track. This island province is promoted almost exclusively through images of cute bug-eyed tarsiers and the majestic Chocolate Hills, but there's much more to experience. Offshore there's superb diving, and when you throw in jungle-fringed rivers perfect for kayaking and paddle-boarding and pristine white-sand beaches it's easy to understand the Bohol appeal."
+    }
+]
