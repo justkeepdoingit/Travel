@@ -125,6 +125,7 @@
     .nav-btn.active{
         padding: 20px;
         top: 0px;
+        bottom: unset;
     }
     .cta-container.active{
         padding: 20px 0px;

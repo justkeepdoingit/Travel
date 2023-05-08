@@ -1,4 +1,9 @@
-import { FeaturedComponent, HeroComponent, NavComponent } from "./Modules/js/module.js";
+import {
+  FeaturedComponent,
+  HeroComponent,
+  NavComponent,
+  CategoryComponents,
+} from "./Modules/js/module.js";
 
 App("main", [
   createEl("div", { class: "hero-container container" }, [
@@ -27,5 +32,6 @@ App("main", [
       filename: "top3.json",
     }),
   ]),
+  Container("div", "container search", await CategoryComponents()),
 ]);
 //http://127.0.0.1:3000/Build/Resources

@@ -65,3 +65,9 @@
     background-color: #11dd59;
     scale: 1.1;
 }
+@media screen and (max-width: 765px) {
+    .learn-more{
+        opacity: 1;
+        translate: 0px 0px;
+    }
+}

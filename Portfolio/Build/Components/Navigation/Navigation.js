@@ -38,10 +38,19 @@ export const Navigation = ({ Logo, Nav = [], CTA = [] }) => {
                 ".nav-btn",
                 ".cta-container",
               ];
-              for (let i = 0; i < classList.length; i++) {
-                document.querySelector(classList[i]).classList.add("active");
+              if (!active) {
+                for (let i = 0; i < classList.length; i++) {
+                  document.querySelector(classList[i]).classList.add("active");
+                }
+                document.querySelector(".logo").classList.remove("mobile");
+                active = true;
+                return;
               }
-              document.querySelector(".logo").classList.remove("mobile");
+              for (let i = 0; i < classList.length; i++) {
+                document.querySelector(classList[i]).classList.remove("active");
+              }
+              document.querySelector(".logo").classList.add("mobile");
+              active = false;
             },
           },
         }),

@@ -1,0 +1,50 @@
+[
+    {
+        "title": "Beaches",
+        "hashtags": ["boracay", "el-nido"]
+    },
+    {
+        "title": "Mountains",
+        "hashtags": ["mayon", "apo", "pinatubo"]
+    },
+    {
+        "title": "Cities",
+        "hashtags": ["manila", "cebu", "davao"]
+    },
+    {
+        "title": "History",
+        "hashtags": ["intramuros", "mactan"]
+    },
+    {
+        "title": "Forests",
+        "hashtags": ["makiling", "siera-madre"]
+    },
+    {
+        "title": "Islands",
+        "hashtags": ["palawan", "siargao", "coron"]
+    },
+    {
+        "title": "Buildings",
+        "hashtags": ["boracay", "el-nido"]
+    },
+    {
+        "title": "Oceans",
+        "hashtags": ["mayon", "apo", "pinatubo"]
+    },
+    {
+        "title": "Parks",
+        "hashtags": ["manila", "cebu", "davao"]
+    },
+    {
+        "title": "Falls",
+        "hashtags": ["intramuros", "mactan"]
+    },
+    {
+        "title": "Landmarks",
+        "hashtags": ["makiling", "siera-madre"]
+    },
+    {
+        "title": "Big Cities",
+        "hashtags": ["palawan", "siargao", "coron"]
+    }
+]

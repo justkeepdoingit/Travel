@@ -4,6 +4,7 @@
 @import url('./Components/Cards/Cards.css');
 @import url('./Modules/css/fonts.css');
 @import url('./Components/Cards/Featured/Featured.css');
+@Import url('./Components/Search/Category.css');
 html, body, p{
     padding: 0;
     margin: 0;
