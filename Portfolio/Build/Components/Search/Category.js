@@ -34,7 +34,7 @@ export const CategoryComponent = async () => {
         {
           class: "search-input",
           type: "text",
-          placeholder: "Where do you like to go?",
+          placeholder: "Where would you like to go?",
         },
         "",
         {
@@ -47,6 +47,7 @@ export const CategoryComponent = async () => {
                 .filter(({ title }) =>
                   title.toLowerCase().includes(e.target.value.toLowerCase())
                 )
+                .splice(0, 6)
                 .map(({ title, hashtags }, index) =>
                   cache.push(
                     Category({
