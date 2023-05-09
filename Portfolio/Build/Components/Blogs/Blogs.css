@@ -1,0 +1,100 @@
+.blog-image{
+    position: relative;
+    height: 300px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-shadow: 1px 4px 20px rgb(0, 0, 0);
+    overflow: hidden;
+}
+.blog-image > *{
+    user-select: none;
+}
+.blog-container{
+    flex-basis: 350px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background-color: rgba(255, 255, 255, 0.021);
+    transition: 200ms ease-in-out;
+}
+.material-symbols-rounded.interact {
+    cursor: pointer;
+    transition: 100ms ease-out;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 48
+  }
+  .material-symbols-rounded.interact:hover{
+    scale: 1.2;
+  }
+.blog-title{
+    color: white;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.blog-text-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8939950980392157) 0%, rgba(0,0,0,0.742734593837535) 50%, rgba(0,0,0,0.4234068627450981) 87%, rgba(0,0,0,0) 100%);
+}
+.interaction{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-top: 15px;
+}
+.interaction span{
+    color: var(--primary);
+}
+.blog-desc{
+    color: rgb(150, 150, 150);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.learn-more span{
+    color: var(--secondary);
+}
+.learn-more{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    height: 50px;
+    width: 50px;
+    background-color: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    box-shadow: 1px 8px 15px rgba(0, 0, 0, 0.788);
+    pointer-events: none;
+    translate: 0px 10px;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    text-decoration: none;
+}
+.blog-container:hover{
+    background-color: rgba(255, 255, 255, 0.048);
+}
+.blog-container:hover .learn-more{
+    opacity: 1;
+    pointer-events: auto;
+    translate: 0px 0px;
+}
+.learn-more:hover{
+    background-color: #11dd59;
+    scale: 1.1;
+}
+@media screen and (max-width: 765px) {
+    .learn-more{
+        opacity: 1;
+        translate: 0px 0px;
+    }
+}

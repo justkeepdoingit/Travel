@@ -1,4 +1,4 @@
-.title.featured{
+.title.featured, .title.blogs{
     font-size: 2rem;
     font-weight: 600;
 }
@@ -11,4 +11,11 @@
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
+}
+.blogs-collection{
+    display: flex;
+    gap: 2rem;
+}
+.carousel-mask{
+    overflow-x: hidden;
 }
