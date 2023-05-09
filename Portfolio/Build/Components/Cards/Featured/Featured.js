@@ -9,12 +9,15 @@ export const Featured = async ({ title, filename }) => {
 
   let cardsCollection = collection.map((data) =>
     TravelCardComponent({
-      image: data.image,
+      image: data.thumbnail,
       title: data.place,
       desc: data.desc,
       isLess: collection.length < 4,
     })
   );
 
-  return Container("div", "featured container", [createEl("p", { class: "title featured" }, title), createEl("div", { class: "cards-collection" }, cardsCollection)]);
+  return Container("div", "featured container", [
+    createEl("p", { class: "title featured" }, title),
+    createEl("div", { class: "cards-collection" }, cardsCollection),
+  ]);
 };

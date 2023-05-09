@@ -1,36 +1,43 @@
 [
     {
-        "image": "./Resources/Assets/PopualWebP/Baguio.webp", 
+        "image": "./Resources/Assets/PopualWebP/Baguio.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Baguio-Thumbnail.png",
         "place": "Baguio", 
         "desc": "Escape the Manila heat and travel to chilly Baguio. Find out the best time to go, how to go there and get around, must-see tourist spots, which restaurants to try, and more. Baguio is a mountain resort city located in Benguet of Northern Luzon, Philippines. Considered to be the country’s Summer Capital, Baguio is undoubtedly one of the top tourist destinations in the Philippines. Also nicknamed The City of Pines, it is a popular weekend getaway for local travelers based in the metro."
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Batanes.webp", 
+        "image": "./Resources/Assets/PopualWebP/Batanes.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Batanes-Thumbnail.png",
         "place": "Batanes", 
         "desc": "Remote and isolated, Batanes is the northernmost province in the Philippines. It’s a 10-piece archipelago, with the three biggest islands being the only ones inhabited: Sabtang, Batan, and Itbayat. Sabtang and Itbayat are their own municipalities, while Batan is further divided into Basco, Ivana, Uyugan, and Mahatao. Although it is the capital, Basco isn’t a city but a small town. It is also where the main airport is located and the most populated."
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Bohol.webp", 
+        "image": "./Resources/Assets/PopualWebP/Bohol.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Bohol-Thumbnail.png",
         "place": "Bohol", 
         "desc": "Bohol offers independent travellers a wealth of options both on and off the beaten track. This island province is promoted almost exclusively through images of cute bug-eyed tarsiers and the majestic Chocolate Hills, but there's much more to experience. Offshore there's superb diving, and when you throw in jungle-fringed rivers perfect for kayaking and paddle-boarding and pristine white-sand beaches it's easy to understand the Bohol appeal."
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Boracay.webp", 
+        "image": "./Resources/Assets/PopualWebP/Boracay.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Boracay-Thumbnail.png",
         "place": "Boracay", 
         "desc": "Boracay, one of the top Islands in the Philippines,  is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset. Boracay is the most iconic island in the Philipines and has won multiple awards in previous years. In 2019, Boracay was the top of the Asia Category in Conde Nast Traveler's The Best Islands in the World 2019 Readers Choice Awards. In 2020, Boracay retains its Top 10 island status alongside other Philippine Islands as it places 6th in the Top 10 list. You'll never run out of exciting things to do in Boracay, from swimming, island-hopping, diving, snorkeling, parasailing, and kayaking."
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Palawan.webp", 
+        "image": "./Resources/Assets/PopualWebP/Palawan.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Palawan-Thumbnail.png",
         "place": "Palawan", 
         "desc": "Palawan is a slice of heaven, a sliver of an island that teems with exotic wildlife, quaint fishing villages, and UNESCO World Heritage Sites. Wave hello to endangered animals at the Calauit Game Preserve and Wildlife Sanctuary or explore the Japanese shipwrecks of Coron Island, regarded as one of the best dive sites in the world. A guided boat tour of the Puerto Princesa Underground River will take your breath away."
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Tagaytay.webp", 
+        "image": "./Resources/Assets/PopualWebP/Tagaytay.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Tagaytay-Thumbnail.png",
         "place": "Tagaytay", 
         "desc": "Tagaytay secures its place on most Philippines itineraries with its location above Taal Volcano's active crater. Views of the crater lake and a refreshingly cool climate make the town an enticing destination—not to mention the famously unfinished People's Park in the Sky."
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Vigan.webp", 
+        "image": "./Resources/Assets/PopualWebP/Vigan.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Vigan-Thumbnail.png",
         "place": "Vigan", 
         "desc": "One of the oldest towns in the Philippines, Vigan is a Spanish Colonial fairy tale of dark-wood mansions, cobblestone streets and clattering kalesa (horse-drawn carriages). In fact, it is the finest surviving example of a Spanish Colonial town in Asia and a Unesco World Heritage site. But outside of well-restored Crisologo St (closed to vehicular traffic) and a few surrounding blocks, it’s also a noisy Filipino town like many others. In the places where history feels alive, you can smell the aroma of freshly baked empanadas wafting past antique shops, explore pottery collectives and watch sunlight flicker off capiz-shell windows."
     }
