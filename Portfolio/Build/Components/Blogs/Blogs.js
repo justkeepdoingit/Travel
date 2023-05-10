@@ -6,7 +6,7 @@ export const BlogsCard = ({ image, title, desc }) => {
   return createEl(
     "div",
     {
-      class: "blog-container",
+      class: "blog-container carousel__item",
     },
     [
       createEl(

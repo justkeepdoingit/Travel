@@ -18,6 +18,18 @@
         "desc": "Escape the Manila heat and travel to chilly Baguio."
     },
     {
+        "image": "./Resources/Assets/PopualWebP/Baguio.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Baguio-Thumbnail.png",
+        "place": "Best place to go?", 
+        "desc": "Escape the Manila heat and travel to chilly Baguio."
+    },
+    {
+        "image": "./Resources/Assets/PopualWebP/Batanes.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Batanes-Thumbnail.png",
+        "place": "Best place to go?", 
+        "desc": "Escape the Manila heat and travel to chilly Baguio."
+    },
+    {
         "image": "./Resources/Assets/PopualWebP/Bohol.webp",
         "thumbnail": "./Resources/Assets/Thumbnails/Featured/Bohol-Thumbnail.png",
         "place": "Best place to go?", 

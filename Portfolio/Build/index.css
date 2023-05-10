@@ -3,7 +3,7 @@
 @import url('./Components/Content/HeroContent.css');
 @import url('./Components/Cards/Cards.css');
 @import url('./Modules/css/fonts.css');
-@import url('./Components/Cards/Featured/Featured.css');
+@import url('./Components/Featured/Featured.css');
 @Import url('./Components/Search/Category.css');
 @import url('./Components/Blogs/Blogs.css');
 html, body, p{

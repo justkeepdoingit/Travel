@@ -1,10 +1,4 @@
-import {
-  FeaturedComponent,
-  HeroComponent,
-  NavComponent,
-  CategoryComponents,
-  BlogsCardComponent,
-} from "./Modules/js/module.js";
+import { FeaturedComponent, HeroComponent, NavComponent, CategoryComponents, BlogsCardComponent } from "./Modules/js/module.js";
 
 App("main", [
   createEl("div", { class: "hero-container container" }, [
@@ -41,7 +35,7 @@ App("main", [
     await FeaturedComponent({
       title: "Blogs",
       filename: "blogs.json",
-      type: "blog",
+      type: "carousel",
     }),
   ]),
 ]);
