@@ -36,6 +36,7 @@
     cursor: pointer;
     transition: 200ms ease-in-out;
     user-select: none;
+    pointer-events: all;
 }
 .carousel__btn.prev{
     left: -20px;
@@ -44,4 +45,8 @@
 .carousel__btn:hover{
     background-color: #11dd59;
     scale: 1.1;
+}
+.pointer-inactive{
+    opacity: 0;
+    pointer-events: none;
 }

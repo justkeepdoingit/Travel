@@ -12,7 +12,7 @@
     user-select: none;
 }
 .blog-container{
-    flex-basis: 350px;
+    flex-basis: 23.6%;
     flex-grow: 1;
     flex-shrink: 0;
     background-color: rgba(255, 255, 255, 0.021);
@@ -92,9 +92,28 @@
     background-color: #11dd59;
     scale: 1.1;
 }
+
+@media screen and (max-width: 1024px) {
+    .learn-more{
+        opacity: 1;
+        translate: 0px 0px;
+    }
+    .blog-container{
+        flex-basis: 31%;
+    }
+}
 @media screen and (max-width: 765px) {
     .learn-more{
         opacity: 1;
         translate: 0px 0px;
+    }
+    .blog-container{
+        flex-basis: 100%;
+    }
+    .prev, .next{
+        scale: 0.8;
+    }
+    .prev:hover, .next:hover{
+        scale: 0.8;
     }
 }

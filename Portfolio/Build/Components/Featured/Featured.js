@@ -1,9 +1,22 @@
 import { TravelCardComponent, BlogsCardComponent } from "../../Modules/js/module.js";
 
 export const Featured = async ({ title, filename, type }) => {
-  let collection = [];
-  let position = 0;
-  let carousel = slider;
+  let collection = [],
+    position = 0,
+    itemsPerSlide = screenWidth(),
+    carousel = slider;
+
+  function screenWidth() {
+    if (screen.width < 764) return 1;
+    if (screen.width > 764 && screen.width <= 1024) return 3;
+    return 4;
+  }
+  console.log(screenWidth());
+
+  function isAtLastItem() {
+    return position >= collection.length - itemsPerSlide;
+  }
+
   await fetchAPI(`./Resources/JSON/${filename}`, (data) => {
     collection = data;
   });
@@ -35,22 +48,24 @@ export const Featured = async ({ title, filename, type }) => {
         createEl("p", { class: "title carousel" }, title),
         createEl("div", { class: "carousel-mask" }, [
           createEl("div", { class: "carousel-collection" }, blogsCollection),
-          createEl("div", { class: "carousel__btn prev" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"), {
+          createEl("div", { class: "carousel__btn prev pointer-inactive" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"), {
             click: (e) => {
               position--;
+              let next = selectEl(".next");
+              if (!isAtLastItem()) next.classList.remove("pointer-inactive");
+              if (position == 0) e.currentTarget.classList.add("pointer-inactive");
+
               carousel().prev(position);
             },
           }),
           createEl("div", { class: "carousel__btn next" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"), {
             click: (e) => {
               position++;
-              carousel().next(position);
-              let nodeCopy = document.querySelectorAll(".carousel__item");
-              let clonedNode = nodeCopy[position - 2].cloneNode(true);
+              let prev = selectEl(".prev");
+              if (position) prev.classList.remove("pointer-inactive");
+              if (isAtLastItem()) e.currentTarget.classList.add("pointer-inactive");
 
-              if (nodeCopy) {
-                selectEl(".carousel-collection").append(clonedNode);
-              }
+              carousel().next(position);
             },
           }),
         ]),
