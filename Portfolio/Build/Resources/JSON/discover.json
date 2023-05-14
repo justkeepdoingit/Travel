@@ -34,11 +34,5 @@
         "thumbnail": "./Resources/Assets/Thumbnails/Discover/Puerto-Princesa-Thumbnail.webp",
         "place": "Underground River",
         "desc": "Tagaytay secures its place on most Philippines itineraries with its location above Taal Volcano's active crater. Views of the crater lake and a refreshingly cool climate make the town an enticing destination—not to mention the famously unfinished People's Park in the Sky."
-    },
-    {
-        "image": "./Resources/Assets/WebP/tumalog-falls.webp",
-        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Tumalog-Falls-Thumbnail.webp",
-        "place": "Tumalog Falls",
-        "desc": "One of the oldest towns in the Philippines, Vigan is a Spanish Colonial fairy tale of dark-wood mansions, cobblestone streets and clattering kalesa (horse-drawn carriages). In fact, it is the finest surviving example of a Spanish Colonial town in Asia and a Unesco World Heritage site. But outside of well-restored Crisologo St (closed to vehicular traffic) and a few surrounding blocks, it’s also a noisy Filipino town like many others. In the places where history feels alive, you can smell the aroma of freshly baked empanadas wafting past antique shops, explore pottery collectives and watch sunlight flicker off capiz-shell windows."
     }
 ]
