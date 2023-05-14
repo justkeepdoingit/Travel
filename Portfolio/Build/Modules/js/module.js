@@ -3,7 +3,7 @@ import { HeroContent } from "../../Components/Content/HeroContent.js";
 import { TravelCard } from "../../Components/Cards/Cards.js";
 import { CategoryComponent } from "../../Components/Search/Category.js";
 import { BlogsCard } from "../../Components/Blogs/Blogs.js";
-import { Footer } from "../../Components/Footer/footer.js";
+import { Footer } from "../../Components/Footer/Footer.js";
 import { Featured } from "../../Components/Cards/Featured/Featured.js";
 export const NavComponent = Navigation,
   BtnComponent = Button,
