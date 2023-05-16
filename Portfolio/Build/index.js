@@ -5,6 +5,7 @@ import {
   CategoryComponents,
   BlogsCardComponent,
   FooterComponent,
+  PaginationComponent,
 } from "./Modules/js/module.js";
 
 App("main", [
@@ -35,12 +36,13 @@ App("main", [
     }),
   ]),
   Container("div", "container search", await CategoryComponents()),
-  // Container("div", "container", [
-  //   await FeaturedComponent({
-  //     title: "Blogs",
-  //     filename: "blogs.json",
-  //   }),
-  // ]),
+  Container("div", "container blog", [
+    await PaginationComponent({
+      title: "Blogs",
+      perPage: screenSize(),
+      filename: "blogs.json",
+    }),
+  ]),
   Container("div", "container footer", FooterComponent()),
 ]);
 //http://127.0.0.1:3000/Build/Resources

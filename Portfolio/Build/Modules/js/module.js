@@ -5,6 +5,7 @@ import { CategoryComponent } from "../../Components/Search/Category.js";
 import { BlogsCard } from "../../Components/Blogs/Blogs.js";
 import { Footer } from "../../Components/Footer/Footer.js";
 import { Featured } from "../../Components/Cards/Featured/Featured.js";
+import { Pagination } from "../../Components/Blogs/BlogPagination/Pagination.js";
 export const NavComponent = Navigation,
   BtnComponent = Button,
   HeroComponent = HeroContent,
@@ -12,4 +13,5 @@ export const NavComponent = Navigation,
   CategoryComponents = CategoryComponent,
   BlogsCardComponent = BlogsCard,
   FooterComponent = Footer,
-  FeaturedComponent = Featured;
+  FeaturedComponent = Featured,
+  PaginationComponent = Pagination;

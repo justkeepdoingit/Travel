@@ -1,31 +1,39 @@
 export const BlogsCard = ({
-  image,
+  thumbnail,
   author,
   date,
   title,
   desc,
   blogType = [],
 }) => {
-  return Container("div", "blog-container", [
+  return createEl("a", { class: "blog-container", href: "#" }, [
     createEl("div", {
       class: "blog-image",
-      style: { backgroundImage: `url(${image})` },
+      style: { backgroundImage: `url(${thumbnail})` },
     }),
     createEl("p", { class: "author-date" }, [
-      createEl("span", { class: "author", author }),
-      "•",
+      createEl("span", { class: "author" }, author),
+      createEl("span", { class: "divider" }, "•"),
       createEl("span", { class: "date" }, date),
     ]),
-    createEl("div", { class: "title-container" }, [
+    createEl("div", { class: "blogs-title-container" }, [
       createEl("h3", { class: "blog-title" }, title),
       createEl(
         "div",
         { class: "read-more" },
-        createEl("span", { class: "material-symbols-rounded" }, north_east)
+        createEl(
+          "span",
+          { class: "material-symbols-rounded more" },
+          "north_east"
+        )
       ),
     ]),
     createEl("p", { class: "blog-desc" }, desc),
-    blogType.map((data) => blogChip(data)),
+    createEl(
+      "div",
+      { class: "chip-container" },
+      blogType.map((data) => blogChip(data))
+    ),
   ]);
 };
 

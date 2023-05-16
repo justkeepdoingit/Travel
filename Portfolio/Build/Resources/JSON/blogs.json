@@ -2,37 +2,37 @@
     {
         "image": "./Resources/Assets/PopualWebP/Baguio.webp",
         "thumbnail": "./Resources/Assets/Thumbnails/Featured/Baguio-Thumbnail.png",
-        "place": "Best place to go?", 
-        "desc": "Escape the Manila heat and travel to chilly Baguio."
-    },
-    {
-        "image": "./Resources/Assets/PopualWebP/Batanes.webp",
-        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Batanes-Thumbnail.png",
-        "place": "Best place to go?", 
-        "desc": "Escape the Manila heat and travel to chilly Baguio."
-    },
-    {
-        "image": "./Resources/Assets/PopualWebP/Bohol.webp",
-        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Bohol-Thumbnail.png",
-        "place": "Best place to go?", 
-        "desc": "Escape the Manila heat and travel to chilly Baguio."
+        "author": "Jores Amancio",
+        "date": "16 May 2023",
+        "title": "Best places to go?",
+        "desc": "What's the best place to go on this time of year?",
+        "blogType": ["Productivity", "Discover"]
     },
     {
         "image": "./Resources/Assets/PopualWebP/Baguio.webp",
-        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Baguio-Thumbnail.png",
-        "place": "Best place to go?", 
-        "desc": "Escape the Manila heat and travel to chilly Baguio."
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Vigan-Thumbnail.png",
+        "author": "Jores Amancio",
+        "date": "2 January 2070",
+        "title": "Is Vigan worth going?",
+        "desc": "Is Vigan really worth going? With it's rich history, we are about to find out",
+        "blogType": ["History", "Discover", "Cities"]
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Batanes.webp",
-        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Batanes-Thumbnail.png",
-        "place": "Best place to go?", 
-        "desc": "Escape the Manila heat and travel to chilly Baguio."
+        "image": "./Resources/Assets/PopualWebP/Baguio.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Puerto-Princesa-Thumbnail.webp",
+        "author": "Jores Amancio",
+        "date": "29 March 2070",
+        "title": "Palawan is AMAZING!",
+        "desc": "Palawan is one of the places you MUST visit once in your life!",
+        "blogType": ["Beaches", "Island", "Forests"]
     },
     {
-        "image": "./Resources/Assets/PopualWebP/Bohol.webp",
-        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Bohol-Thumbnail.png",
-        "place": "Best place to go?", 
-        "desc": "Escape the Manila heat and travel to chilly Baguio."
+        "image": "./Resources/Assets/PopualWebP/Baguio.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Boracay-Thumbnail.png",
+        "author": "Jores Amancio",
+        "date": "16 December 3102",
+        "title": "One of the most famous Beach in the WORLD!",
+        "desc": "Boracay is titled to be one of the best beaches in the world and is always full of poeple.",
+        "blogType": ["Beaches", "Island"]
     }
 ]

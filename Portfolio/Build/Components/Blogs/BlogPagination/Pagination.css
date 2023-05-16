@@ -1,0 +1,48 @@
+.pagination{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    overflow: hidden;
+    padding: 2rem 0rem;
+    background-color: rgba(34, 34, 34, 0.445);
+    border-radius: 20px;
+}
+.pagination-pages{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 0rem 2rem;
+    transition: 300ms ease-in-out;
+}
+.pagination-pages .blog-container{
+    width: 100%;
+}
+.pagination-container{
+    width: 90%;
+    margin: auto;
+}
+.blog-btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 20px 0px;
+}
+.blog-btn{
+    color: white;
+    display: grid;
+    padding: 0.5rem;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    user-select: none;
+}
+.blog-btn:hover{
+    box-shadow: 0px 0px 10px #e4e4e43f;
+}
+.blog-btn span{
+    font-size: 2rem;
+}
+.prev{
+    rotate: 180deg;
+}

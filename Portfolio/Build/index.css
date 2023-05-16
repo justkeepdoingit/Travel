@@ -8,6 +8,7 @@
 @import url('./Components/Footer/Footer.css');
 @import url('./Components/Cards/Cards.css');
 @import url('./Components/Cards/Featured/Featured.css');
+@import url('./Components/Blogs/BlogPagination/Pagination.css');
 html,
 body,
 p {

@@ -1,10 +1,10 @@
 .footer {
-    padding: 100px;
+    padding: 100px 0px;
     padding-top: 50px;
 }
 
 .footer-container {
-    max-width: 70%;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -47,8 +47,10 @@
     padding-top: 50px;
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 2rem;
     text-align: left;
+    margin: auto;
 }
 .footer-card, .info-container{
     position: relative;
@@ -60,8 +62,9 @@
     
 }
 .footer-card-container > * {
-    flex-grow: 1;
-    flex-basis: 33%;
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+    flex-basis: 200px;
 }
 .contact-card{
     display: block;
@@ -95,4 +98,23 @@
     height: 2px;
     margin: 7px 0px;
     background-color: rgba(147, 147, 147, 0.099);
+}
+@media screen and (max-width: 768px) {
+    .footer-card-container{
+        flex-direction: column;
+        width: 70%;
+    }
+    .footer-card-container > * {
+        width: 80%;
+    }
+    .footer-title{
+        font-size: 2rem;
+        width: 100%;
+    }
+    .footer{
+        padding: 100px 0px;
+    }
+    .image-container.footer{
+        height: 100px;
+    }
 }
