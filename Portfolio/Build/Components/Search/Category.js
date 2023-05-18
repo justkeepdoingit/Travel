@@ -59,7 +59,7 @@ export const CategoryComponent = async () => {
                   )
                 );
             }
-            updateElement("category-container", cache);
+            updateElement(".category-container", cache);
           },
         }
       ),
