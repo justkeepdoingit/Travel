@@ -34,5 +34,14 @@
         "title": "One of the most famous Beach in the WORLD!",
         "desc": "Boracay is titled to be one of the best beaches in the world and is always full of poeple.",
         "blogType": ["Beaches", "Island"]
+    },
+    {
+        "image": "./Resources/Assets/PopualWebP/Baguio.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Blogs/Mayon-Thumbnail.webp",
+        "author": "Travel",
+        "date": "16 December 3102",
+        "title": "Stunning cone-shaped Volcano? That's Mount Mayon!",
+        "desc": "Mayon volcano, in SE Luzon, is the most active volcano in the Philippines. Its classic, symmetrical profile, which rises above the Albay",
+        "blogType": ["Mountains", "Travel", "Popular"]
     }
 ]

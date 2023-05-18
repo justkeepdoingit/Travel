@@ -99,6 +99,14 @@
     margin: 7px 0px;
     background-color: rgba(147, 147, 147, 0.099);
 }
+@media screen and (max-width: 425px) {
+    .footer-card-container > *{
+        width: 100%;
+    }
+    .image-container.footer{
+        height: auto;
+    }
+}
 @media screen and (max-width: 768px) {
     .footer-card-container{
         flex-direction: column;

@@ -9,6 +9,7 @@
 @import url('./Components/Cards/Cards.css');
 @import url('./Components/Cards/Featured/Featured.css');
 @import url('./Components/Blogs/BlogPagination/Pagination.css');
+@import url('./Components/Info/Info.css');
 html,
 body,
 p {
@@ -16,6 +17,9 @@ p {
     margin: 0;
     box-sizing: content-box;
     font-family: 'Circular';
+}
+body{
+    transition: 300ms ease-in-out;
 }
 
 h1,

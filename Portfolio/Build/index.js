@@ -44,5 +44,6 @@ App("main", [
     }),
   ]),
   Container("div", "container footer", FooterComponent()),
+  createEl("div", { class: "info-page" }),
 ]);
 //http://127.0.0.1:3000/Build/Resources

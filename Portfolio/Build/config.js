@@ -2,22 +2,13 @@ function createEl(tag, attr = {}, contents, eventListener = {}) {
   let element = document.createElement(tag);
   if (attr)
     Object.entries(attr).map(([key, value]) => {
-      typeof value == "object"
-        ? Object.entries(value).map(
-            ([innerKey, innerValue]) => (element[key][innerKey] = innerValue)
-          )
-        : element.setAttribute(key, value);
+      typeof value == "object" ? Object.entries(value).map(([innerKey, innerValue]) => (element[key][innerKey] = innerValue)) : element.setAttribute(key, value);
     });
-  if (eventListener)
-    Object.entries(eventListener).map(([key, value]) =>
-      element.addEventListener(key, value)
-    );
+  if (eventListener) Object.entries(eventListener).map(([key, value]) => element.addEventListener(key, value));
   if (contents == null) return element;
   let append = (items) => element.append(items);
   // typeof items == "string" ? element.append(items) : element.append(items);
-  Array.isArray(contents)
-    ? contents.map((data) => append(data))
-    : append(contents);
+  Array.isArray(contents) ? contents.map((data) => append(data)) : append(contents);
   return element;
 }
 function createFrag(tag, string) {
@@ -43,9 +34,7 @@ function Container(tag, className, contents) {
 
   if (!contents) return container;
 
-  Array.isArray(contents)
-    ? contents.map((data) => container.append(data))
-    : container.append(contents);
+  Array.isArray(contents) ? contents.map((data) => container.append(data)) : container.append(contents);
 
   return container;
 }
@@ -62,9 +51,7 @@ async function fetchAPI(url, cb) {
 }
 
 function App(selector, content = []) {
-  let contents = content.map((data) =>
-    document.querySelector(`.${selector}`).append(data)
-  );
+  let contents = content.map((data) => document.querySelector(`.${selector}`).append(data));
 }
 
 window.addEventListener("scroll", (e) => {
@@ -76,10 +63,8 @@ window.addEventListener("scroll", (e) => {
 });
 
 function updateElement(selector, content) {
-  document.querySelector(`.${selector}`).innerHTML = "";
-  Array.isArray(content)
-    ? content.map((data) => document.querySelector(`.${selector}`).append(data))
-    : document.querySelector(`.${selector}`).append(content);
+  document.querySelector(`${selector}`).innerHTML = "";
+  Array.isArray(content) ? content.map((data) => document.querySelector(`${selector}`).append(data)) : document.querySelector(`${selector}`).append(content);
 }
 function selectEl(selector) {
   return document.querySelector(selector);

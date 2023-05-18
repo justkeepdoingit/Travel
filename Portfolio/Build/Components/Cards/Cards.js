@@ -1,9 +1,9 @@
-export const TravelCard = ({ image, title, desc, isLess = false }) => {
+import { InfoComponent } from "../../Modules/js/module.js";
+export const TravelCard = ({ image, title, desc, isLess = false, fullImage, infoTitle }) => {
   return createEl(
     "a",
     {
       class: "card-container",
-      href: "test",
     },
     [
       createEl(
@@ -17,12 +17,20 @@ export const TravelCard = ({ image, title, desc, isLess = false }) => {
               backgroundImage: `url('${image}')`,
             },
           },
-          createEl("a", { class: "learn-more", href: "#" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"))
+          createEl("a", { class: "learn-more" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"))
         )
       ),
       createEl("p", { class: "card-title" }, title),
       createEl("p", { class: "desc" }, shortenText(desc, isLess)),
-    ]
+    ],
+    {
+      click: async () => {
+        let container = selectEl(".info-page");
+        updateElement(".info-page", await InfoComponent({ fullImage: fullImage, title: title, description: desc, infoTitle: infoTitle }));
+        container.style.translate = "0px 0px";
+        document.querySelector("body").style.overflow = "hidden";
+      },
+    }
   );
 };
 
