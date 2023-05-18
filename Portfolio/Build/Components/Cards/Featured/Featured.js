@@ -1,4 +1,7 @@
-import { TravelCardComponent, BlogsCardComponent } from "../../../Modules/js/module.js";
+import {
+  TravelCardComponent,
+  BlogsCardComponent,
+} from "../../../Modules/js/module.js";
 
 export const Featured = async ({ title, filename }) => {
   let collection = [];
@@ -15,8 +18,12 @@ export const Featured = async ({ title, filename }) => {
       desc: data.desc,
       infoTitle: data["info-title"],
       isLess: collection.length <= 4,
+      offers: data.offers,
     })
   );
 
-  return Container("div", "featured container", [createEl("p", { class: "title featured" }, title), createEl("div", { class: "cards-collection" }, cardsCollection)]);
+  return Container("div", "featured container", [
+    createEl("p", { class: "title featured" }, title),
+    createEl("div", { class: "cards-collection" }, cardsCollection),
+  ]);
 };

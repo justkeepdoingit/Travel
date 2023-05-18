@@ -1,5 +1,13 @@
 import { InfoComponent } from "../../Modules/js/module.js";
-export const TravelCard = ({ image, title, desc, isLess = false, fullImage, infoTitle }) => {
+export const TravelCard = ({
+  image,
+  title,
+  desc,
+  isLess = false,
+  fullImage,
+  infoTitle,
+  offers,
+}) => {
   return createEl(
     "a",
     {
@@ -17,7 +25,15 @@ export const TravelCard = ({ image, title, desc, isLess = false, fullImage, info
               backgroundImage: `url('${image}')`,
             },
           },
-          createEl("a", { class: "learn-more" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"))
+          createEl(
+            "a",
+            { class: "learn-more" },
+            createEl(
+              "span",
+              { class: "material-symbols-rounded" },
+              "arrow_forward"
+            )
+          )
         )
       ),
       createEl("p", { class: "card-title" }, title),
@@ -26,7 +42,16 @@ export const TravelCard = ({ image, title, desc, isLess = false, fullImage, info
     {
       click: async () => {
         let container = selectEl(".info-page");
-        updateElement(".info-page", await InfoComponent({ fullImage: fullImage, title: title, description: desc, infoTitle: infoTitle }));
+        updateElement(
+          ".info-page",
+          await InfoComponent({
+            fullImage: fullImage,
+            title: title,
+            description: desc,
+            infoTitle: infoTitle,
+            offers: offers,
+          })
+        );
         container.style.translate = "0px 0px";
         document.querySelector("body").style.overflow = "hidden";
       },

@@ -9,11 +9,7 @@ export const Pagination = async ({ title, filename, perPage }) => {
   });
 
   let pages = Math.ceil(collection.length / perPage),
-    paginationContainer = createEl(
-      "div",
-      { class: "pagination-container" },
-      createEl("p", { class: "title featured" }, title)
-    ),
+    paginationContainer = createEl("div", { class: "pagination-container" }, createEl("p", { class: "title featured" }, title)),
     pagination = createEl("div", { class: "pagination" }),
     startingLoop = 0;
 
@@ -41,52 +37,45 @@ export const Pagination = async ({ title, filename, perPage }) => {
     startingLoop += perPage;
   }
 
-  function nextPrev({ btn }) {
+  function nextPrev({ btn, relativeWidth }) {
     let paginationPages = selectEl(".pagination-pages"),
-      pageWidth = paginationPages.offsetWidth,
+      pageWidth = relativeWidth,
       pagination = document.querySelectorAll(".pagination-pages");
+    console.log(relativeWidth);
 
-    function loopPagination(plusminus) {
+    function loopPagination() {
       for (let i = 0; i < pagination.length; i++) {
-        pagination[i].style.translate = `${plusminus}${
-          pageWidth * currentPos
-        }px 0px`;
+        pagination[i].style.translate = `-${pageWidth * currentPos}px 0px`;
       }
     }
 
     if (btn == "prev") {
       currentPos--;
-      loopPagination("-");
+      loopPagination();
       return;
     }
     currentPos++;
-    loopPagination("-");
+    loopPagination();
     return;
   }
 
   let blogBtn = createEl("div", { class: "blog-btn-container" }, [
-    createEl(
-      "a",
-      { class: "blog-btn prev" },
-      createEl("span", { class: "material-symbols-rounded" }, "trending_flat"),
-      {
-        click: (e) => {
-          if (currentPos == 0) return;
-          nextPrev({ btn: "prev" });
-        },
-      }
-    ),
-    createEl(
-      "a",
-      { class: "blog-btn next" },
-      createEl("span", { class: "material-symbols-rounded" }, "trending_flat"),
-      {
-        click: (e) => {
-          if (currentPos >= pages - 1) return;
-          nextPrev({ btn: "next" });
-        },
-      }
-    ),
+    createEl("a", { class: "blog-btn prev" }, createEl("span", { class: "material-symbols-rounded" }, "trending_flat"), {
+      click: (e, err) => {
+        if (currentPos == 0) return;
+        let offsetWidth = e.currentTarget.parentNode.previousSibling.childNodes[0].offsetWidth;
+        nextPrev({ btn: "prev", relativeWidth: offsetWidth });
+        console.log(err);
+      },
+    }),
+    createEl("a", { class: "blog-btn next" }, createEl("span", { class: "material-symbols-rounded" }, "trending_flat"), {
+      click: (e, err) => {
+        if (currentPos >= pages - 1) return;
+        let offsetWidth = e.currentTarget.parentNode.previousSibling.childNodes[0].offsetWidth;
+        nextPrev({ btn: "next", relativeWidth: offsetWidth });
+        console.log(err);
+      },
+    }),
   ]);
 
   paginationContainer.append(pagination, blogBtn);
