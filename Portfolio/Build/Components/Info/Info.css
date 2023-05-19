@@ -40,7 +40,7 @@
 .background-container{
     height: 500px;
     background-size: cover;
-    background-position: center center;
+    background-position: center 70%;
     background-repeat: no-repeat;
     border-radius: 8px;
 }
@@ -88,7 +88,7 @@
 }
 .offer-container{
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
 }
 .offer-columns{
     flex-grow: 1;
@@ -126,4 +126,45 @@ p.offer-items{
 }
 .info-title.sub{
     padding-bottom: 0;
+}
+.sub-div{
+    margin-top: 20px;
+}
+@media screen and (max-width: 425px) {
+    .info-page{
+        padding: 50px 0px;
+    }
+    .info-container{
+        width: 100vw;
+        padding: 30px 10px;
+    }
+    .offer-container{
+        flex-direction: column;
+    }
+    .info-container{
+        padding: 30px 0px
+    }
+    .offers:last-child{
+        padding-bottom: 10px;
+    }
+    .info-inner{
+        padding: 0px 20px;
+    }
+    .close{
+        padding: 10px;
+    }
+    .info-desc, p.offer-items{
+        font-size: 16px
+    }
+    span.offer-items{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 768px){
+    .offers:last-child{
+        padding-bottom: 10px;
+    }
+    .offer-container{
+        gap: 0px;
+    }
 }
