@@ -130,7 +130,7 @@ p.offer-items{
 .sub-div{
     margin-top: 20px;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 600px) {
     .info-page{
         padding: 50px 0px;
     }
