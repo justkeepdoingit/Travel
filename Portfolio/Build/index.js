@@ -12,7 +12,12 @@ App("main", [
   createEl("div", { class: "hero-container container" }, [
     NavComponent({
       Logo: "Travel",
-      Nav: ["For you", "For business", "News"],
+      // Nav: ["For you", "For business", "News"],
+      Nav: [
+        { navName: "Popular Places", link: "PopularPlaces" },
+        { navName: "Waiting to be Discovered", link: "WaitingToBeDiscovered" },
+        { navName: "Your Top 3", link: "YourTop3" },
+      ],
       CTA: ["Contact"],
     }),
     HeroComponent(),

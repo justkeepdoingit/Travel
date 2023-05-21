@@ -10,6 +10,8 @@
 @import url('./Components/Cards/Featured/Featured.css');
 @import url('./Components/Blogs/BlogPagination/Pagination.css');
 @import url('./Components/Info/Info.css');
+@import url('./Components/Info/CardInfo/CardInfo.css');
+@import url('./Components/Info/BlogInfo/BlogInfo.css');
 html,
 body,
 p {
@@ -20,6 +22,9 @@ p {
 }
 body{
     transition: 300ms ease-in-out;
+}
+html{
+    scroll-behavior: smooth;
 }
 
 h1,
@@ -47,7 +52,7 @@ h2 {
     position: relative;
     z-index: 2;
 }
-
+/*
 .overlay {
     position: absolute;
     z-index: 1;
@@ -57,7 +62,6 @@ h2 {
     backdrop-filter: blur(1px);
     background-color: hsla(0, 0%, 0%, 0.438)
 }
-
 .loading {
     position: absolute;
     top: 0;
@@ -67,7 +71,7 @@ h2 {
     background-color: white;
     z-index: 3;
     animation: 1s ease-in-out 1s close-loading forwards, 1s ease-in 1.5s close-landing2 forwards;
-}
+} */
 
 ::-webkit-scrollbar {
     width: 8px;
