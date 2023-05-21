@@ -1,7 +1,4 @@
-import {
-  TravelCardComponent,
-  BlogsCardComponent,
-} from "../../../Modules/js/module.js";
+import { TravelCardComponent, BlogsCardComponent } from "../../../Modules/js/module.js";
 
 export const Featured = async ({ title, filename }) => {
   let collection = [];
@@ -23,7 +20,7 @@ export const Featured = async ({ title, filename }) => {
   );
 
   return Container("div", "featured container", [
-    createEl("p", { class: "title featured" }, title),
+    createEl("p", { class: "title featured", id: title.replaceAll(" ", "") }, title),
     createEl("div", { class: "cards-collection" }, cardsCollection),
   ]);
 };

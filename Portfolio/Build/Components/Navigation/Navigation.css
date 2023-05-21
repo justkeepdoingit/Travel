@@ -10,6 +10,10 @@
     width: min(90vw, 80%);
     margin: auto;
 }
+.cta-nav{
+    text-decoration: none;
+    color: white;
+}
 .navigation-container > *:not(:nth-child(2)) {
     flex: 1;
     font-size: 1.rem;

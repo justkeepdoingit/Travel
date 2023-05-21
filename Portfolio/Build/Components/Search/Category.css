@@ -86,7 +86,7 @@
     width: 150px;
     background: rgb(255,255,255);
     background: radial-gradient(circle, rgba(255,255,255,1) 4%, rgba(255,0,0,0) 94%);
-    transition: ease-out;
+    transition: 300ms ease-out;
     z-index: 1;
     border-radius: 100px;
     opacity: 0;

@@ -4,6 +4,7 @@
 .blog-container{
     width: 25%;
     text-decoration: none;
+    cursor: pointer;
 }
 .blog-container:hover .more{
     translate: 0px -10px;

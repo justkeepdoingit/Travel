@@ -41,22 +41,12 @@ export const Footer = () => {
   return Container("div", "footer-container", [
     Container("div", "footer-title-container", [
       createEl("a", { class: "footer-btn contact" }, "Contact Page"),
-      createEl(
-        "h1",
-        { class: "footer-title" },
-        createFrag("span", "Get in touch with us for<br>more information")
-      ),
-      createEl(
-        "p",
-        { class: "footer-text" },
-        "If you need questions, we're here for you"
-      ),
+      createEl("h1", { class: "footer-title" }, createFrag("span", "Get in touch with us for<br>more information")),
+      createEl("p", { class: "footer-text" }, "If you need questions, we're here for you"),
       Container(
         "div",
         "footer-card-container",
-        cardContent.map(({ image, title, content }) =>
-          FooterCards({ image, title, content })
-        )
+        cardContent.map(({ image, title, content }) => FooterCards({ image, title, content }))
       ),
     ]),
   ]);
@@ -77,6 +67,7 @@ const FooterCards = ({ image, title, content }) => {
       {
         class: "contact-card",
         href: `${content.link}`,
+        target: "_blank",
       },
       content.btnText
     ),

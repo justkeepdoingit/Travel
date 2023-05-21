@@ -5,7 +5,7 @@ export const Button = ({ content, type = "", className = "", eventListener = {} 
 let active = false;
 
 export const Navigation = ({ Logo, Nav = [], CTA = [] }) => {
-  let navs = Nav.map((data) => createEl("a", { class: "cta-nav" }, data));
+  let navs = Nav.map(({ navName, link }) => createEl("a", { class: "cta-nav", href: `#${link}` }, navName));
   let mobile = screen.width <= 768 ? `mobile ${active ? "active" : ""}` : "";
 
   return Container("div", `navigation-row ${mobile}`, [

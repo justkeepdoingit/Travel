@@ -1,13 +1,5 @@
 import { InfoComponent } from "../../Modules/js/module.js";
-export const TravelCard = ({
-  image,
-  title,
-  desc,
-  isLess = false,
-  fullImage,
-  infoTitle,
-  offers,
-}) => {
+export const TravelCard = ({ image, title, desc, isLess = false, fullImage, infoTitle, offers }) => {
   return createEl(
     "a",
     {
@@ -28,11 +20,7 @@ export const TravelCard = ({
           createEl(
             "a",
             { class: "learn-more" },
-            createEl(
-              "span",
-              { class: "material-symbols-rounded" },
-              "arrow_forward"
-            )
+            createEl("span", { class: "material-symbols-rounded" }, "arrow_forward")
           )
         )
       ),
@@ -50,6 +38,7 @@ export const TravelCard = ({
             description: desc,
             infoTitle: infoTitle,
             offers: offers,
+            type: "card",
           })
         );
         container.style.translate = "0px 0px";

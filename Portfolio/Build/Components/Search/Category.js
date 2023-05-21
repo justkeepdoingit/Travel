@@ -44,9 +44,7 @@ export const CategoryComponent = async () => {
               cache = categories();
             } else {
               categoryContent
-                .filter(({ title }) =>
-                  title.toLowerCase().includes(e.target.value.toLowerCase())
-                )
+                .filter(({ title }) => title.toLowerCase().includes(e.target.value.toLowerCase()))
                 .splice(0, 6)
                 .map(({ title, hashtags }, index) =>
                   cache.push(
@@ -87,8 +85,15 @@ export const Category = ({ content, color, hashtags = [], index }) => {
     {
       mousemove: (e) => {
         let shine = document.querySelectorAll(".shine")[index];
-        shine.style.top = `${e.offsetY - 75}px`;
-        shine.style.left = `${e.offsetX - 75}px`;
+        shine.animate(
+          {
+            top: `${e.offsetY - 75}px`,
+            left: `${e.offsetX - 75}px`,
+          },
+          { duration: 300, fill: "forwards" }
+        );
+        // shine.style.top = `${e.offsetY - 75}px`;
+        // shine.style.left = `${e.offsetX - 75}px`;
         shine.classList.add("active");
       },
       mouseleave: (e) => {
