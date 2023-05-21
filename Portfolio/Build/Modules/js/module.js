@@ -7,6 +7,8 @@ import { Footer } from "../../Components/Footer/Footer.js";
 import { Featured } from "../../Components/Cards/Featured/Featured.js";
 import { Pagination } from "../../Components/Blogs/BlogPagination/Pagination.js";
 import { Info } from "../../Components/Info/Info.js";
+import { CardInfo } from "../../Components/Info/CardInfo/CardInfo.js";
+import { BlogInfo } from "../../Components/Info/BlogInfo/BlogInfo.js";
 export const NavComponent = Navigation,
   BtnComponent = Button,
   HeroComponent = HeroContent,
@@ -16,4 +18,6 @@ export const NavComponent = Navigation,
   FooterComponent = Footer,
   FeaturedComponent = Featured,
   PaginationComponent = Pagination,
-  InfoComponent = Info;
+  InfoComponent = Info,
+  CardInfoComponent = CardInfo,
+  BlogInfoComponent = BlogInfo;
