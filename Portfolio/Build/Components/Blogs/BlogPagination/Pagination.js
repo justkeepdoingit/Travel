@@ -86,7 +86,6 @@ export const Pagination = async ({ title, filename, perPage }) => {
           if (currentPos >= pages - 1) return;
           let currentElement = e.currentTarget.parentNode.previousSibling;
           nextPrev({ btn: "next", selectedElement: currentElement });
-          console.log(err);
         },
       }
     ),
