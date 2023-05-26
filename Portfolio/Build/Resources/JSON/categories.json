@@ -1,50 +1,74 @@
 [
     {
         "title": "Beaches",
-        "hashtags": ["boracay", "el-nido"]
+        "hashtags": ["boracay", "el-nido"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png",
+        "color": "#32158A"
     },
     {
         "title": "Mountains",
-        "hashtags": ["mayon", "apo", "pinatubo"]
-    },
-    {
-        "title": "Cities",
-        "hashtags": ["manila", "cebu", "davao"]
+        "hashtags": ["mayon", "apo", "pinatubo"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/MOUNTAINS.png",
+        "color": "#5B7B13"
     },
     {
         "title": "History",
-        "hashtags": ["intramuros", "mactan"]
+        "hashtags": ["intramuros", "mactan"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/HISTORY.png",
+        "color": "#62666D"
     },
     {
         "title": "Forests",
-        "hashtags": ["makiling", "siera-madre"]
+        "hashtags": ["makiling", "siera-madre"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/FORESTS.png",
+        "color": "#4237B6"
     },
     {
         "title": "Islands",
-        "hashtags": ["palawan", "siargao", "coron"]
+        "hashtags": ["palawan", "siargao", "coron"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/ISLANDS.png",
+        "color": "#0C3B65"
     },
     {
-        "title": "Buildings",
-        "hashtags": ["boracay", "el-nido"]
-    },
-    {
-        "title": "Oceans",
-        "hashtags": ["mayon", "apo", "pinatubo"]
+        "title": "Cities",
+        "hashtags": ["manila", "cebu", "davao"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/CITIES.png",
+        "color": "#5B7B13"
     },
     {
         "title": "Parks",
-        "hashtags": ["manila", "cebu", "davao"]
+        "hashtags": ["manila", "cebu", "davao"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/PARKS.png",
+        "color": "#4237B6"
     },
     {
         "title": "Falls",
-        "hashtags": ["intramuros", "mactan"]
+        "hashtags": ["intramuros", "mactan"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/FALLS.png",
+        "color": "#D255CD"
     },
     {
         "title": "Landmarks",
-        "hashtags": ["makiling", "siera-madre"]
+        "hashtags": ["makiling", "siera-madre"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/LANDMARKS.png",
+        "color": "#34C343"
     },
     {
-        "title": "Big Cities",
-        "hashtags": ["palawan", "siargao", "coron"]
+        "title": "Popular",
+        "hashtags": ["makiling", "siera-madre"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/POPULAR.png",
+        "color": "#0C3B65"
+    },
+    {
+        "title": "Vacation",
+        "hashtags": ["makiling", "siera-madre"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/VACATION.png",
+        "color": "#D255CD"
+    },
+    {
+        "title": "Malls",
+        "hashtags": ["makiling", "siera-madre"],
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/MALLS.png",
+        "color": "#62666D"
     }
 ]

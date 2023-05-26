@@ -21,8 +21,9 @@
         "offers": [
             {"icon": "ac_unit", "icon-name": "Weather"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "water_lux", "icon-name": "Ocean View"},
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"},
+            {"icon": "group", "icon-name": "Locals"}
         ]
     },
     {
@@ -34,8 +35,9 @@
         "offers": [
             {"icon": "ac_unit", "icon-name": "Weather"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "forest", "icon-name": "Wild Life"},
+            {"icon": "pets", "icon-name": "Indigenous Animals"},
+            {"icon": "local_activity", "icon-name": "Local Activities"}
         ]
     },
     {
@@ -45,10 +47,12 @@
         "desc": "Boracay, one of the top Islands in the Philippines,  is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset. Boracay is the most iconic island in the Philipines and has won multiple awards in previous years. In 2019, Boracay was the top of the Asia Category in Conde Nast Traveler's The Best Islands in the World 2019 Readers Choice Awards. In 2020, Boracay retains its Top 10 island status alongside other Philippine Islands as it places 6th in the Top 10 list. You'll never run out of exciting things to do in Boracay, from swimming, island-hopping, diving, snorkeling, parasailing, and kayaking.",
         "info-title": "One of the best beach in the world!",
         "offers": [
-            {"icon": "ac_unit", "icon-name": "Weather"}, 
-            {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "local_mall", "icon-name": "Local Malls"},
+            {"icon": "water_lux", "icon-name": "Ocean View"},
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"},
+            {"icon": "local_activity", "icon-name": "Local Activities"},
+            {"icon": "nightlife", "icon-name": "Night Life"},
+            {"icon": "group", "icon-name": "Locals"}
         ]
     },
     {
@@ -58,10 +62,11 @@
         "desc": "Palawan is a slice of heaven, a sliver of an island that teems with exotic wildlife, quaint fishing villages, and UNESCO World Heritage Sites. Wave hello to endangered animals at the Calauit Game Preserve and Wildlife Sanctuary or explore the Japanese shipwrecks of Coron Island, regarded as one of the best dive sites in the world. A guided boat tour of the Puerto Princesa Underground River will take your breath away.",
         "info-title": "Former contender for 7 Wonders of the World",
         "offers": [
-            {"icon": "ac_unit", "icon-name": "Weather"}, 
-            {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "water_lux", "icon-name": "Ocean View"},
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"},
+            {"icon": "local_activity", "icon-name": "Local Activities"},
+            {"icon": "group", "icon-name": "Locals"},
+            {"icon": "landscape", "icon-name": "Mountain View"}
         ]
     },
     {
@@ -73,8 +78,9 @@
         "offers": [
             {"icon": "ac_unit", "icon-name": "Weather"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "local_activity", "icon-name": "Local Activities"},
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"},
+            {"icon": "landscape", "icon-name": "Mountain View"}
         ]
     }
 ]
