@@ -17,15 +17,11 @@ export const TravelCard = ({ image, title, desc, isLess = false, fullImage, info
               backgroundImage: `url('${image}')`,
             },
           },
-          createEl(
-            "a",
-            { class: "learn-more" },
-            createEl("span", { class: "material-symbols-rounded" }, "arrow_forward")
-          )
+          createEl("a", { class: "learn-more" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"))
         )
       ),
       createEl("p", { class: "card-title" }, title),
-      createEl("p", { class: "desc" }, shortenText(desc, isLess)),
+      createEl("p", { class: "desc" }, createFrag("span", shortenText(desc, isLess))),
     ],
     {
       click: async () => {
@@ -39,6 +35,10 @@ export const TravelCard = ({ image, title, desc, isLess = false, fullImage, info
             infoTitle: infoTitle,
             offers: offers,
             type: "card",
+            imageLink: `/Info_Images/${title.replaceAll(" ", "_").replaceAll("'", "")}/${title
+              .toLowerCase()
+              .replaceAll(" ", "_")
+              .replaceAll("'", "")}_png.json`,
           })
         );
         container.style.translate = "0px 0px";

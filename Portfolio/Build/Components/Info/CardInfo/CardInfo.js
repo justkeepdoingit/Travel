@@ -1,18 +1,14 @@
 import { PaginationComponent } from "../../../Modules/js/module.js";
-export const CardInfo = async ({ title, fullImage, infoTitle, description, offers = [] }) => {
+export const CardInfo = async ({ title, fullImage, infoTitle, description, offers = [], imageLink }) => {
   let offerContainer = (offerCollection = []) => {
     let initialContainer = createEl("div", { class: "offer-container" }),
-      perRow = Math.floor(offerCollection.length / 2),
+      perRow = Math.ceil(offerCollection.length / 2),
       rowsContainer = createEl("div", { class: "offer-columns" });
 
     for (let i = 0; i < offerCollection.length; i++) {
       rowsContainer.append(
         createEl("div", { class: "offers" }, [
-          createEl(
-            "div",
-            {},
-            createEl("span", { class: "material-symbols-rounded offer-items" }, offerCollection[i]["icon"])
-          ),
+          createEl("div", {}, createEl("span", { class: "material-symbols-rounded offer-items" }, offerCollection[i]["icon"])),
           createEl("div", {}, createEl("p", { class: "offer-items" }, offerCollection[i]["icon-name"])),
         ])
       );
@@ -35,12 +31,15 @@ export const CardInfo = async ({ title, fullImage, infoTitle, description, offer
     }),
     createEl("h1", { class: "info-title" }, infoTitle),
     createEl("div", { class: "info-divider" }),
-    createEl("div", { class: "desc-container" }, [createEl("p", { class: "info-desc" }, description)]),
+    createEl("div", { class: "desc-container" }, [createEl("p", { class: "info-desc" }, createFrag("span", description))]),
     createEl("div", { class: "info-divider" }),
     createEl("h1", { class: "info-title" }, "What this place offers"),
     offerContainer(offers),
     createEl("div", { class: "info-divider sub-div" }),
     createEl("h1", { class: "info-title sub" }, `More on ${title}`),
-    await PaginationComponent({ filename: "featured.json", perPage: screenSize() }),
+    await PaginationComponent({
+      filename: imageLink,
+      perPage: screenSize(),
+    }),
   ]);
 };

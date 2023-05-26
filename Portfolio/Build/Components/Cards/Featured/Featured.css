@@ -8,9 +8,12 @@
     padding-bottom: 50px;
 }
 .cards-collection{
-    display: flex;
+    display: grid;
     gap: 2rem;
-    flex-wrap: wrap;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    margin: auto;
+    padding: 20px 0px;
+    transition: 300ms ease-in-out;
 }
 .blogs-collection{
     display: flex;

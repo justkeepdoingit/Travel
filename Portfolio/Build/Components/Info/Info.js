@@ -7,6 +7,7 @@ export const Info = async ({
   infoTitle,
   offers = [],
   type,
+  imageLink,
   //For Blogs
   author,
   date,
@@ -24,6 +25,7 @@ export const Info = async ({
         description: description,
         offers: offers,
         fullImage: fullImage,
+        imageLink: imageLink,
       });
       break;
     case "blog":
@@ -44,10 +46,9 @@ export const Info = async ({
       click: () => {
         selectEl(".info-page").style.translate = `0px 100%`;
         selectEl("body").style.overflow = "auto";
+        selectEl(".info").style.innerHTML = "";
       },
     }),
-    createEl("div", { class: "info-container" }, [
-      createEl("div", { class: "info-inner" }, [createEl("div", { class: "info" }, component)]),
-    ]),
+    createEl("div", { class: "info-container" }, [createEl("div", { class: "info-inner" }, [createEl("div", { class: "info" }, component)])]),
   ]);
 };

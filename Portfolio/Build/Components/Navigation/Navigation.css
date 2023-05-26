@@ -13,6 +13,10 @@
 .cta-nav{
     text-decoration: none;
     color: white;
+    transition: 300ms ease-in-out;
+}
+.cta-nav:hover{
+    color: var(--primary);
 }
 .navigation-container > *:not(:nth-child(2)) {
     flex: 1;
@@ -50,6 +54,7 @@
     color: #333;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+    text-decoration: none;
 }
 .cta-container{
     display: flex;

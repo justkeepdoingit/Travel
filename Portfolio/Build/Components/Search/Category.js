@@ -4,22 +4,13 @@ export const CategoryComponent = async () => {
     categoryContent = data;
   });
 
-  function randomHex() {
-    let hexcode = "0123456789ABCDEF";
-    let generatedHex = "";
-    for (let i = 0; i < 6; i++) {
-      generatedHex += hexcode[Math.abs(Math.ceil(Math.random() * 20 - 7))];
-    }
-    return generatedHex;
-  }
-
   function categories() {
-    return categoryContent.slice(0, 6).map(({ title, hashtags }, index) =>
+    return categoryContent.slice(0, 6).map(({ title, thumbnail, color }, index) =>
       Category({
         content: title,
-        color: randomHex(),
-        hashtags: hashtags,
+        image: thumbnail,
         index: index,
+        color: color,
       })
     );
   }
@@ -46,13 +37,13 @@ export const CategoryComponent = async () => {
               categoryContent
                 .filter(({ title }) => title.toLowerCase().includes(e.target.value.toLowerCase()))
                 .splice(0, 6)
-                .map(({ title, hashtags }, index) =>
+                .map(({ title, thumbnail, color }, index) =>
                   cache.push(
                     Category({
                       content: title,
-                      color: randomHex(),
-                      hashtags: hashtags,
+                      image: thumbnail,
                       index: index,
+                      color: color,
                     })
                   )
                 );
@@ -66,34 +57,50 @@ export const CategoryComponent = async () => {
   ]);
 };
 
-export const Category = ({ content, color, hashtags = [], index }) => {
-  let hashtagCollection = hashtags.map((tags) => `#${tags} `);
+export const Category = ({ content, image, hashtags = [], index, color }) => {
   return createEl(
     "div",
     {
       class: "category-card",
       style: {
-        backgroundColor: `#${color}`,
+        backgroundColor: `${color}`,
         color: "white",
       },
     },
     [
       createEl("p", { class: "category-title" }, content),
-      createEl("p", { class: "hashtag" }, hashtagCollection),
-      createEl("div", { class: "shine" }),
+      createEl(
+        "div",
+        {
+          class: "shine",
+          style: {
+            backgroundImage: `url(${image})`,
+          },
+        },
+        [
+          createEl(
+            "p",
+            {
+              class: "category-title image-title",
+              style: {
+                color: `${color}`,
+              },
+            },
+            content
+          ),
+          createEl("div", { class: "overlay" }),
+        ]
+      ),
     ],
     {
       mousemove: (e) => {
         let shine = document.querySelectorAll(".shine")[index];
         shine.animate(
           {
-            top: `${e.offsetY - 75}px`,
-            left: `${e.offsetX - 75}px`,
+            clipPath: `circle(100px at ${e.offsetX}px ${e.offsetY}px)`,
           },
           { duration: 300, fill: "forwards" }
         );
-        // shine.style.top = `${e.offsetY - 75}px`;
-        // shine.style.left = `${e.offsetX - 75}px`;
         shine.classList.add("active");
       },
       mouseleave: (e) => {

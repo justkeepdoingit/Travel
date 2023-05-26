@@ -1,5 +1,5 @@
-export const Button = ({ content, type = "", className = "", eventListener = {} }) => {
-  return createEl("a", { class: `btn ${type} ${className}` }, content, eventListener);
+export const Button = ({ content, type = "", className = "", eventListener = {}, link }) => {
+  return createEl("a", { class: `btn ${type} ${className}`, href: link || "#blank" }, content, eventListener);
 };
 
 let active = false;
@@ -13,7 +13,7 @@ export const Navigation = ({ Logo, Nav = [], CTA = [] }) => {
       createEl("div", { class: `logo ${mobile}` }, Logo),
       createEl("div", { class: "navigation" }, navs),
       createEl("div", { class: "cta-container" }, [
-        Button({ content: CTA[0], type: "primary nav" }),
+        Button({ content: CTA[0], type: "primary nav", link: "#footer" }),
         Button({
           content: createEl("span", { class: "material-symbols-rounded" }, `${active ? "close" : "menu"}`),
           className: "nav-btn",
