@@ -1,5 +1,4 @@
 export const BlogInfo = ({ fullImage, title, desc, author, date, fullDesc, blogType = [], imageCollection = [] }) => {
-  console.log(imageCollection);
   return createEl("div", {}, [
     createEl(
       "div",

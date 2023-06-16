@@ -70,6 +70,7 @@
     font-weight: bold;
     font-size: 1.5rem;
     color: var(--primary);
+    text-decoration: none;
 }
 .scrolled{
     background-color: #2b2424;

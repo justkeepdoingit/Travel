@@ -8,6 +8,7 @@
     background-color: var(--secondary);
     padding: 50px;
     height: 100vh;
+    width: calc(100vw - 100px);
 }
 .info-mask{
     height: 100%;
@@ -49,6 +50,10 @@
     cursor: pointer;
     transition: 300ms ease-in-out;
 }
+.info-desc h3{
+    font-size: 2rem;
+    margin: 1.5rem 0px;
+}
 .close:hover{
     rotate: 180deg;
 }
@@ -56,6 +61,7 @@
 @media screen and (max-width: 600px) {
     .info-page{
         padding: 50px 0px;
+        width: 100%;
     }
     .info-container{
         width: 100vw;

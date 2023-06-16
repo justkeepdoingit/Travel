@@ -1,0 +1,22 @@
+.categoryinfo-container{
+    padding: 20px 0px;
+    width: 100%;
+}
+.category-info{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    width: auto;
+}
+.info-title.category{
+    color: var(--primary);
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    background-color: #111010;
+}

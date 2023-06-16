@@ -17,7 +17,11 @@ export const TravelCard = ({ image, title, desc, isLess = false, fullImage, info
               backgroundImage: `url('${image}')`,
             },
           },
-          createEl("a", { class: "learn-more" }, createEl("span", { class: "material-symbols-rounded" }, "arrow_forward"))
+          createEl(
+            "a",
+            { class: "learn-more" },
+            createEl("span", { class: "material-symbols-rounded" }, "arrow_forward")
+          )
         )
       ),
       createEl("p", { class: "card-title" }, title),
@@ -52,6 +56,7 @@ const shortenText = (text, isLess) => {
   let shortenText = "";
   let lessText = isLess ? 200 : 40;
 
+  if (!text) return " ";
   if (text.length < lessText) return text;
 
   for (let i = 0; i < lessText; i++) {

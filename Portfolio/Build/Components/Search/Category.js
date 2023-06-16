@@ -1,16 +1,28 @@
+import { CategoryInfoComp, InfoComponent } from "../../Modules/js/module.js";
 export const CategoryComponent = async () => {
   let categoryContent = [];
   await fetchAPI(`./Resources/JSON/categories.json`, (data) => {
     categoryContent = data;
   });
 
+  function randomHex() {
+    let genratedHex;
+    for (let i = 0; i < 5; i++) {
+      genratedHex = `hsl(${Math.ceil(Math.random() * 400)}, ${Math.ceil(Math.random() * 100)}%, ${Math.ceil(
+        Math.random() * 50
+      )}%)`;
+    }
+    return genratedHex;
+  }
+
   function categories() {
-    return categoryContent.slice(0, 6).map(({ title, thumbnail, color }, index) =>
+    return categoryContent.slice(0, 6).map(({ title, thumbnail, info }, index) =>
       Category({
         content: title,
         image: thumbnail,
         index: index,
-        color: color,
+        color: randomHex(),
+        info: info,
       })
     );
   }
@@ -37,13 +49,13 @@ export const CategoryComponent = async () => {
               categoryContent
                 .filter(({ title }) => title.toLowerCase().includes(e.target.value.toLowerCase()))
                 .splice(0, 6)
-                .map(({ title, thumbnail, color }, index) =>
+                .map(({ title, thumbnail }, index) =>
                   cache.push(
                     Category({
                       content: title,
                       image: thumbnail,
                       index: index,
-                      color: color,
+                      color: randomHex(),
                     })
                   )
                 );
@@ -57,7 +69,7 @@ export const CategoryComponent = async () => {
   ]);
 };
 
-export const Category = ({ content, image, hashtags = [], index, color }) => {
+export const Category = ({ content, image, index, color, info = [] }) => {
   return createEl(
     "div",
     {
@@ -106,6 +118,12 @@ export const Category = ({ content, image, hashtags = [], index, color }) => {
       mouseleave: (e) => {
         let shine = document.querySelectorAll(".shine")[index];
         shine.classList.remove("active");
+      },
+      click: async () => {
+        let container = selectEl(".info-page");
+        updateElement(".info-page", await InfoComponent({ imageCollection: info, type: "category", title: content }));
+        container.style.translate = "0px 0px";
+        document.querySelector("body").style.overflow = "hidden";
       },
     }
   );

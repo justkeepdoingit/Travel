@@ -12,8 +12,8 @@ let cardContent = [
     image: "./Resources/Assets/Phone.png",
     title: "Phone",
     content: {
-      link: "tel:(+63)912-345-6789",
-      text: "(+63)912-345-6789",
+      link: "tel:(+63) 912-345-6789",
+      text: "(+63) 912-345-6789",
       btnText: "Call me",
     },
   },
@@ -42,7 +42,7 @@ export const Footer = () => {
     Container("div", "footer-title-container", [
       createEl("a", { class: "footer-btn contact" }, "Contact Page"),
       createEl("h1", { class: "footer-title" }, createFrag("span", "Get in touch with us for<br>more information")),
-      createEl("p", { class: "footer-text" }, "If you need questions, we're here for you"),
+      createEl("p", { class: "footer-text" }, "If you have questions, we’re here for you"),
       Container(
         "div",
         "footer-card-container",

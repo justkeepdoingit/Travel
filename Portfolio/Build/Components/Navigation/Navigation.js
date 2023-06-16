@@ -10,7 +10,11 @@ export const Navigation = ({ Logo, Nav = [], CTA = [] }) => {
 
   return Container("div", `navigation-row ${mobile}`, [
     Container("div", "navigation-container", [
-      createEl("div", { class: `logo ${mobile}` }, Logo),
+      createEl(
+        "a",
+        { class: `logo ${mobile}`, href: "https://justkeepdoingit.github.io/Travel/Portfolio/Build/" },
+        Logo
+      ),
       createEl("div", { class: "navigation" }, navs),
       createEl("div", { class: "cta-container" }, [
         Button({ content: CTA[0], type: "primary nav", link: "#footer" }),

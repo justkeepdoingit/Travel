@@ -1,5 +1,4 @@
-import { CardInfoComponent } from "../../Modules/js/module.js";
-import { BlogInfoComponent } from "../../Modules/js/module.js";
+import { CardInfoComponent, BlogInfoComponent, CategoryInfoComp } from "../../Modules/js/module.js";
 export const Info = async ({
   fullImage,
   title,
@@ -39,6 +38,9 @@ export const Info = async ({
         blogType: blogType,
         imageCollection: imageCollection,
       });
+      break;
+    case "category":
+      component = CategoryInfoComp({ info: imageCollection, title: title });
   }
 
   return createEl("div", { class: "info-mask" }, [
@@ -49,6 +51,8 @@ export const Info = async ({
         selectEl(".info").style.innerHTML = "";
       },
     }),
-    createEl("div", { class: "info-container" }, [createEl("div", { class: "info-inner" }, [createEl("div", { class: "info" }, component)])]),
+    createEl("div", { class: "info-container" }, [
+      createEl("div", { class: "info-inner" }, [createEl("div", { class: "info" }, component)]),
+    ]),
   ]);
 };
