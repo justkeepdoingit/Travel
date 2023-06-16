@@ -2,7 +2,7 @@
   {
     "image": "./Resources/Assets/PopualWebP/Baguio.webp",
     "thumbnail": "./Resources/Assets/Thumbnails/Featured/Baguio-Thumbnail.png",
-    "author": "Jores",
+    "author": "Jores Amancio",
     "date": "16 May 2023",
     "title": "Best places to go?",
     "desc": "What's the best place to go on this time of year?",
@@ -21,10 +21,10 @@
   {
     "image": "./Resources/Assets/PopualWebP/Vigan.webp",
     "thumbnail": "./Resources/Assets/Thumbnails/Featured/Vigan-Thumbnail.png",
-    "author": "Travel",
-    "date": "2 January 2070",
+    "author": "Jores Amancio",
+    "date": "16 May 2023",
     "title": "Is Vigan worth going?",
-    "desc": "Is Vigan really worth going? With it's rich history, we are about to find out",
+    "desc": "Is Vigan really worth going? With it's rich history, we are about to find out.",
     "blogType": [
       "History",
       "Discover",
@@ -41,8 +41,8 @@
   {
     "image": "./Resources/Assets/PopualWebP/Palawan.webp",
     "thumbnail": "./Resources/Assets/Thumbnails/Discover/Puerto-Princesa-Thumbnail.webp",
-    "author": "Travel",
-    "date": "29 March 2070",
+    "author": "Jores Amancio",
+    "date": "16 May 2070",
     "title": "Palawan is AMAZING!",
     "desc": "Palawan is one of the places you MUST visit once in your life!",
     "blogType": [
@@ -61,8 +61,8 @@
   {
     "image": "./Resources/Assets/PopualWebP/Boracay.webp",
     "thumbnail": "./Resources/Assets/Thumbnails/Featured/Boracay-Thumbnail.png",
-    "author": "Jores",
-    "date": "16 December 3102",
+    "author": "Jores Amancio",
+    "date": "20 May 2023",
     "title": "One of the World's Most Famous Beaches!",
     "desc": "Boracay is titled to be one of the best beaches in the world and is always full of poeple.",
     "blogType": [
@@ -80,10 +80,10 @@
   {
     "image": "./Resources/Assets/Blog_Images/Venice_Grand_Canal.jpg",
     "thumbnail": "./Resources/Assets/Blog_Images/Venice_Grand_Canal_Thumbnail.jpg",
-    "author": "Angel",
-    "date": "16 December 3102",
+    "author": "Angel Parungao",
+    "date": "20 May 2023",
     "title": "Exploring the Venice Grand Canal",
-    "desc": "Capturing spontaneous adventures on the timeless beauty of Venice",
+    "desc": "Capturing spontaneous adventures on the timeless beauty of Venice.",
     "blogType": [
       "Cities",
       "Travel",

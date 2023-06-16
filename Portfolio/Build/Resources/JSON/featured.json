@@ -79,8 +79,7 @@
             {"icon": "ac_unit", "icon-name": "Weather"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
             {"icon": "local_activity", "icon-name": "Local Activities"},
-            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"},
-            {"icon": "landscape", "icon-name": "Mountain View"}
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"}
         ]
     }
 ]

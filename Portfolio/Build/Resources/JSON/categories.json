@@ -1,74 +1,1194 @@
 [
-    {
-        "title": "Beaches",
-        "hashtags": ["boracay", "el-nido"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png",
-        "color": "#32158A"
-    },
-    {
-        "title": "Mountains",
-        "hashtags": ["mayon", "apo", "pinatubo"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/MOUNTAINS.png",
-        "color": "#5B7B13"
-    },
-    {
-        "title": "History",
-        "hashtags": ["intramuros", "mactan"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/HISTORY.png",
-        "color": "#62666D"
-    },
-    {
-        "title": "Forests",
-        "hashtags": ["makiling", "siera-madre"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/FORESTS.png",
-        "color": "#4237B6"
-    },
-    {
-        "title": "Islands",
-        "hashtags": ["palawan", "siargao", "coron"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/ISLANDS.png",
-        "color": "#0C3B65"
-    },
-    {
-        "title": "Cities",
-        "hashtags": ["manila", "cebu", "davao"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/CITIES.png",
-        "color": "#5B7B13"
-    },
-    {
-        "title": "Parks",
-        "hashtags": ["manila", "cebu", "davao"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/PARKS.png",
-        "color": "#4237B6"
-    },
-    {
-        "title": "Falls",
-        "hashtags": ["intramuros", "mactan"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/FALLS.png",
-        "color": "#D255CD"
-    },
-    {
-        "title": "Landmarks",
-        "hashtags": ["makiling", "siera-madre"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/LANDMARKS.png",
-        "color": "#34C343"
-    },
-    {
-        "title": "Popular",
-        "hashtags": ["makiling", "siera-madre"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/POPULAR.png",
-        "color": "#0C3B65"
-    },
-    {
-        "title": "Vacation",
-        "hashtags": ["makiling", "siera-madre"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/VACATION.png",
-        "color": "#D255CD"
-    },
-    {
-        "title": "Malls",
-        "hashtags": ["makiling", "siera-madre"],
-        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/MALLS.png",
-        "color": "#62666D"
-    }
+  {
+    "title": "Beaches",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "image": "./Resources/Assets/PopualWebP/Boracay.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Boracay-Thumbnail.png",
+        "place": "Boracay",
+        "desc": "Boracay, one of the top Islands in the Philippines,  is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset. Boracay is the most iconic island in the Philipines and has won multiple awards in previous years. In 2019, Boracay was the top of the Asia Category in Conde Nast Traveler's The Best Islands in the World 2019 Readers Choice Awards. In 2020, Boracay retains its Top 10 island status alongside other Philippine Islands as it places 6th in the Top 10 list. You'll never run out of exciting things to do in Boracay, from swimming, island-hopping, diving, snorkeling, parasailing, and kayaking.",
+        "info-title": "One of the best beach in the world!",
+        "offers": [
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          },
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      },
+      {
+        "name": "Nacpan",
+        "image": "./Resources/Assets/WebP/nacpan-elnido.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Nacpan-Elnido-Thumbnail.webp",
+        "place": "Nacpan Beach",
+        "desc": "<p><b>What to do</b></p><p>Despite its popularity, Nacpan Beach generally only has a few visitors at a time. Hence, it is ideal for those who prefer more serene surroundings that are ideal for relaxing. Tourists can lie on the beach or settle in hammocks if they want to sunbathe.</p><p>Aside from swimming, visitors can also go surfing, kayaking, and stand-up paddleboarding. If you want to discover what kind of marine life lives off the shore, you can rent snorkeling gear from various stores and resorts along the beach.</p><p>Nacpan Beach is also known for the handful of local restaurants that offer various cuisines. There are also snacks for sale along the beach's entrance that are perfect for a pick-me-up while strolling along the sand.</p><p><b>Nearby tourist destinations</b></p><p>Nacpan is one-half of the popular twin beaches in the area—the other one is called Calitang Beach. The two beaches merge in a narrow sandbar that snakes into a lush hill, which offers an excellent view of Nacpan and Calitang. Tourists must trek to the southern portion of Nacpan to reach the hill where it meets with the smaller Calitang Beach. Calitang is also a stretch of white sand, but its waves are calmer than those in Nacpan. It is a fishing village with multi-colored boats anchored along the shore.</p><p><b>How to Get There</b></p><p>The most convenient and comfortable way is to book a shuttle service, which is usually part of organized tours going to Nacpan Beach. This is also a great way to meet other travelers as you will most likely share the service with other people.</p><p>For a more authentic island experience, you can hop on a tricycle to get to Nacpan Beach. While this is cheaper, expect a more bumpy ride as some parts of the road going to the beach are not fully cemented and are sometimes muddy.</p><p>You can also rent a motorbike and drive your way to Nacpan. Most budget travelers and thrill-seekers opt to do this since rental rates for an entire day are cheaper than a shuttle or tricycle service, plus they also have the freedom to go at their own pace and explore other places around Nacpan Beach and the rest of El Nido. As mentioned, some roads leading to Nacpan are still not in great condition, so be extra careful when choosing this transport option.</p><p><b>Best Time to Visit</b></p><p>It is highly recommended to visit Nacpan Beach during the country's summer season, which usually starts in March and ends in late May. But since this is peak travel season, expect to bump into a crowd of tourists — although it does not get too busy compared to other popular beach destinations in the Philippines.</p><p>If you are a fan of sunsets, it is best to arrive before 5 PM so you can catch the sun dip behind the horizon and paint the sky above Nacpan Beach beautiful shades of orange and pink.</p>",
+        "info-title": "Summer Capital of the Philippines",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "emoji_flags",
+            "icon-name": "Landmarks"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Boracay",
+        "image": "./Resources/Assets/PopualWebP/Boracay.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Boracay-Thumbnail.png",
+        "place": "Boracay",
+        "desc": "Boracay, one of the top Islands in the Philippines,  is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset. Boracay is the most iconic island in the Philipines and has won multiple awards in previous years. In 2019, Boracay was the top of the Asia Category in Conde Nast Traveler's The Best Islands in the World 2019 Readers Choice Awards. In 2020, Boracay retains its Top 10 island status alongside other Philippine Islands as it places 6th in the Top 10 list. You'll never run out of exciting things to do in Boracay, from swimming, island-hopping, diving, snorkeling, parasailing, and kayaking.",
+        "info-title": "One of the best beach in the world!",
+        "offers": [
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          },
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Mountains",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/MOUNTAINS.png",
+    "info": [
+      {
+        "name": "Bohol",
+        "image": "./Resources/Assets/PopualWebP/Bohol.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Bohol-Thumbnail.png",
+        "place": "Bohol",
+        "info-title": "Chocolate Hills and More",
+        "desc": "Bohol offers independent travellers a wealth of options both on and off the beaten track. This island province is promoted almost exclusively through images of cute bug-eyed tarsiers and the majestic Chocolate Hills, but there's much more to experience. Offshore there's superb diving, and when you throw in jungle-fringed rivers perfect for kayaking and paddle-boarding and pristine white-sand beaches it's easy to understand the Bohol appeal.",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          },
+          {
+            "icon": "pets",
+            "icon-name": "Indigenous Animals"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          }
+        ]
+      },
+      {
+        "name": "Mount Pinatubo",
+        "image": "./Resources/Assets/WebP/mount-pinatubo-zambales.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Mount-Pinatubo-Thumbnail.webp",
+        "place": "Mount Pinatubo",
+        "desc": "<p>Mount Pinatubo, a dormant volcano north of Manila, discharged millions of tons of sulfur dioxide in the air on June 1991, when it was awaken after more than 600 years of dormancy, on what is considered as the largest and most catastrophic volcanic eruption in the recent years.</p><p>Ashes covered the entire Luzon landmass and even reached Vietnam, Thailand, Malaysia and other neighboring Asian countries.</p><p>Close to a thousand perished, more than a hundred thousand lost their homes, and billion worth of crops were damaged. The eruption also brought down the world temperature by a few centigrade.</p>",
+        "info-title": "Summer Capital of the Philippines",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "emoji_flags",
+            "icon-name": "Landmarks"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Batad Rice Terraces",
+        "image": "./Resources/Assets/WebP/batad-rice-terraces.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Rice-Terraces-Thumbnail.webp",
+        "place": "Batad Rice Terraces",
+        "desc": "<p>For 2,000 years, the high rice fields of the Ifugao have followed the contours of the mountains. The fruit of knowledge handed down from one generation to the next, and the expression of sacred traditions and a delicate social balance, they have helped to create a landscape of great beauty that expresses the harmony between humankind and the environment.</p><p>The Rice Terraces of the Philippine Cordilleras is an outstanding example of an evolved, living cultural landscape that can be traced as far back as two millennia ago in the pre-colonial Philippines. The terraces are located in the remote areas of the Philippine Cordillera mountain range on the northern island of Luzon, Philippine archipelago. While the historic terraces cover an extensive area, the inscribed property consists of five clusters of the most intact and impressive terraces, located in four municipalities.  They are all the product of the Ifugao ethnic group, a minority community that has occupied these mountains for thousands of years.</p>",
+        "info-title": "Rice Terraces of the Philippine Cordilleras",
+        "offers": [
+          {
+            "icon": "agriculture",
+            "icon-name": "agriculture"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          }
+        ]
+      },
+      {
+        "name": "Sierra Madre National Park",
+        "image": "./Resources/Assets/Info_Images/Sierra_Madre_National_Park_PNGs/SMNP_2.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Sierra_Madre_National_Park_PNGs/SMNP_2.jpg",
+        "place": "Sierra Madre National Park",
+        "info-title": "Sierra Madre National Park: Nature's Untamed Beauty",
+        "desc": "<p>Venture into the wild embrace of Sierra Madre National Park, a haven of untamed beauty in the Philippines. With its rugged terrain, lush rainforests, and diverse ecosystems, this natural paradise is a playground for nature enthusiasts and adventurers seeking a thrilling escape. Prepare to be captivated by the raw power and exquisite charm of Sierra Madre as you embark on an unforgettable journey through its magnificent landscapes.</p><p>Sierra Madre National Park boasts a wealth of natural wonders that will leave you in awe. Towering mountain ranges stretch as far as the eye can see, their peaks piercing the heavens. Dense jungles teem with exotic wildlife, showcasing the rich biodiversity of this pristine ecosystem. Crystal-clear rivers meander through the forest, providing a lifeline to countless species of plants and animals. Each step reveals a new marvel, a testament to the resilience and beauty of nature.</p><p>Immerse yourself in the boundless opportunities for adventure that await in Sierra Madre National Park. Trek through its challenging trails, navigating through dense foliage and steep inclines. Encounter rare species such as the Philippine eagle, the cloud rat, and the tamaraw, reminding you of the park's importance in preserving these precious creatures. Explore hidden waterfalls and sparkling lagoons, taking a moment to soak in the serenity of these hidden gems.</p><p>Sierra Madre National Park is not just a destination for outdoor enthusiasts; it is also a sanctuary for the soul. The sheer magnitude and unspoiled beauty of this untamed wilderness inspire a sense of wonder and reverence. Take a moment to connect with the rhythm of nature, allowing the sounds of the forest and the scent of the earth to wash over you. Sierra Madre National Park is a testament to the power and resilience of the natural world, reminding us of our responsibility to protect and cherish these precious ecosystems for generations to come.</p>",
+        "offers": [
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "redeem",
+            "icon-name": "Souvenirs"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          }
+        ]
+      },
+      {
+        "name": "Mount Arayat National Park",
+        "image": "./Resources/Assets/Info_Images/Mount_Arayat_National_Park_PNGs/MANP_2.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Mount_Arayat_National_Park_PNGs/MANP_2.jpg",
+        "place": "Mount Arayat National Park",
+        "info-title": "Mount Arayat National Park: Nature's Timeless Wonder",
+        "desc": "<p>Step into the realm of Mount Arayat National Park, a timeless wonder that stands tall in the Philippines. With its majestic peak, rich biodiversity, and awe-inspiring landscapes, this natural masterpiece beckons adventurers and nature enthusiasts to embark on a journey of discovery. From the moment you set foot in this enchanting sanctuary, you'll be captivated by its unspoiled beauty and the sense of serenity that permeates the air.</p><p>The towering presence of Mount Arayat dominates the horizon, commanding attention and admiration. As you venture deeper into the national park, you'll be greeted by a tapestry of lush vegetation, pristine rivers, and diverse wildlife. The melodious songs of colorful birds fill the air, harmonizing with the rustling of leaves and the whispering wind. Every step unveils a new vista, offering breathtaking panoramas that will leave you in awe of nature's grandeur.</p><p>Mount Arayat National Park is a playground for outdoor enthusiasts, offering a range of activities to suit every adventurer. Hike along its well-marked trails, each leading to hidden gems and stunning viewpoints. From the summit, be rewarded with panoramic vistas that stretch as far as the eye can see, showcasing the patchwork of verdant fields, distant mountains, and picturesque towns. Immerse yourself in the peacefulness of the park, embracing the harmony between human and nature.</p><p>Mount Arayat is steeped in folklore and legend, adding a touch of magic to its already captivating allure. According to local mythology, the mountain is believed to be the abode of mythical creatures and spirits, lending an air of mysticism to the surrounding landscape. As you explore this enchanting sanctuary, take a moment to appreciate the cultural significance and the deep-rooted connection between the land and its people. Mount Arayat National Park is a testament to the enduring power of nature and the stories it weaves throughout time.</p>",
+        "offers": [
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "redeem",
+            "icon-name": "Souvenirs"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      },
+      {
+        "name": "Mount Makiling Forest Reserve",
+        "image": "./Resources/Assets/Info_Images/Mount_Makiling_Forest_Reserve_PNGs/MMFR_3.webp",
+        "thumbnail": "./Resources/Assets/Info_Images/Mount_Makiling_Forest_Reserve_PNGs/MMFR_3.webp",
+        "place": "Mount Makiling Forest Reserve",
+        "info-title": "Mount Makiling Forest Reserve: Nature's Healing Haven",
+        "desc": "<p>Discover the healing powers of Mount Makiling Forest Reserve, a sanctuary nestled in the heart of the Philippines. This pristine natural haven offers a respite from the chaos of daily life and invites you to reconnect with the restorative energy of nature. With its lush greenery, therapeutic hot springs, and mystical legends, Mount Makiling Forest Reserve promises a rejuvenating journey for the mind, body, and soul.</p><p>As you delve into the depths of Mount Makiling Forest Reserve, a sense of tranquility washes over you. The towering trees create a protective canopy, allowing dappled sunlight to filter through, casting a soothing glow. The air is crisp and filled with the invigorating scent of the forest, revitalizing your senses with every breath. As you immerse yourself in the natural surroundings, feel the weight of stress and worries melt away.</p><p>Mount Makiling Forest Reserve offers a plethora of opportunities for relaxation and recreation. Take a leisurely hike along its scenic trails, where you'll encounter sparkling waterfalls cascading into crystal-clear pools. Indulge in the therapeutic benefits of the natural hot springs, renowned for their mineral-rich waters believed to possess healing properties. The harmonious symphony of birdsong and the gentle rustling of leaves create a soothing soundtrack as you unwind and reconnect with your inner self.</p><p>The legends and folklore surrounding Mount Makiling add an element of mystique to this enchanting forest reserve. According to local mythology, the mountain is said to be the dwelling place of the benevolent spirit, Maria Makiling, who watches over the land and its inhabitants. As you explore the forest, you can't help but feel a sense of connection to something greater than yourself, a profound link between humans and the natural world. Mount Makiling Forest Reserve is a place of healing, where you can find solace, harmony, and a renewed sense of well-being.</p>",
+        "offers": [
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      },
+      {
+        "name": "Mount Pulag National Park",
+        "image": "./Resources/Assets/Info_Images/Mount_Pulag_National_Park_PNGs/MPNP_1.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Mount_Pulag_National_Park_PNGs/MPNP_1.jpg",
+        "place": "Mount Pulag National Park",
+        "info-title": "Mount Pulag National Park: Nature's Majestic Retreat",
+        "desc": "<p>Set foot in Mount Pulag National Park, a majestic retreat nestled in the heart of the Philippines. Known as the \"Playground of the Gods,\" this natural wonderland is a haven for outdoor enthusiasts and adventurers seeking a true escape into the beauty of nature. Prepare to be captivated by the awe-inspiring landscapes, breathtaking views, and the ethereal beauty that awaits atop its towering peaks.</p><p>As you venture into Mount Pulag National Park, you'll be greeted by a kaleidoscope of colors. The park is renowned for its stunning sunrise and sunset vistas, where the sky transforms into a vibrant canvas of oranges, pinks, and purples. Witnessing the sun's first rays illuminating the sea of clouds below is a truly awe-inspiring experience that will leave an indelible mark on your soul.</p><p>Mount Pulag National Park offers a myriad of outdoor activities for nature enthusiasts. Embark on an exhilarating hike to the summit, conquering challenging trails along the way. The reward? Standing atop the highest peak in Luzon, where panoramic views of the surrounding mountains and valleys unfold before your eyes. Marvel at the unique flora and fauna that thrive in this high-altitude environment, including the iconic dwarf bamboo and the vibrant Benguet pine trees.</p><p>The beauty of Mount Pulag National Park extends beyond its physical grandeur. It holds a special place in the cultural heritage of the indigenous tribes that call this region home. The park is deeply intertwined with their traditions and beliefs, with rituals and ceremonies still being practiced to this day. Immerse yourself in the rich tapestry of local culture and gain a deeper appreciation for the symbiotic relationship between humans and nature. Mount Pulag National Park is not just a destination—it's a transformative journey of self-discovery and connection with the natural world.</p>",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "History",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/HISTORY.png",
+    "info": [
+      {
+        "name": "Manila City",
+        "image": "./Resources/Assets/Info_Images/Manila_PNGs/Manila_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Manila_PNGs/Manila_3.png",
+        "place": "Manila",
+        "desc": "<p>Manila City is the capital and the cultural, economic, and political center of the Philippines, offering a rich and varied experience for travelers. Whether you are looking for history, culture, nature, or entertainment, you will find something to suit your interest in this vibrant city. Here are some of the places to visit in Manila City:<h3>History and Culture</h3>If you are interested in history and culture, you will not be disappointed by Manila City. You can visit <b>Rizal Park</b>, a historical park that honors the national hero Jose Rizal and features gardens, monuments, museums, and a planetarium. You can also explore <b>Intramuros</b>, the walled city that was the seat of Spanish colonial rule and contains historical landmarks such as <b>Fort Santiago</b>, <b>San Agustin Church</b>, and <b>Manila Cathedral</b>. Another cultural attraction is the <b>National Museum of Anthropology</b>, which showcases the diverse heritage and culture of the Filipino people.<h3>Nature and Parks</h3>If you are looking for a green escape from the urban hustle, you will find plenty of options in Manila City. You can visit <b>Manila Ocean Park</b>, one of the biggest aquariums in the world with more than 14,000 animals across 270 marine species. You can also enjoy <b>Paco Park</b>, a former cemetery that was converted into a park that features gardens, fountains, a chapel, and a concert venue. Another option is <b>Arroceros Forest Park</b>, an urban forest that houses various trees and birds, as well as a butterfly sanctuary.<h3>Entertainment and Shopping</h3>If you are looking for some fun and excitement, you will find plenty of options in Manila City. You can visit <b>The Dessert Museum</b>, a museum that features eight rooms themed after different desserts such as donuts, marshmallows, candy canes, and ice cream. You can also try some of the <b>Escape Rooms</b>, where you have to solve puzzles and clues to escape from different scenarios such as prison break, zombie apocalypse, or haunted house. Another option is <b>Star City Amusement Park</b>, a park that offers various rides and attractions such as roller coasters, ferris wheel, haunted house, and snow world.<h3>Food and Dining</h3>If you are looking for some delicious and diverse food options, you will find plenty of options in Manila City. You can visit <b>Chinatown</b>, one of the oldest Chinatowns in the world that offers gold and pearl items, as well as authentic Chinese cuisine such as dim sum, noodles, roast duck, and hopia. You can also try some of the local specialties such as adobo (meat stewed in vinegar and soy sauce), kare-kare (oxtail stew with peanut sauce), sinigang (sour soup with meat or seafood), halo-halo (shaved ice with mixed fruits), and leche flan (caramel custard). Another option is to visit some of the famous restaurants in Manila City such as <b>Barbara’s Heritage Restaurant</b>, <b>Cafe Ilang-Ilang</b>, <b>Harbor View Restaurant</b>, and <b>The Aristocrat</b>.",
+        "info-title": "Manila City: A Diverse and Dynamic Destination in the Philippines",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "restaurant",
+            "icon-name": "Famous Restaurants"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Mount Pinatubo",
+        "image": "./Resources/Assets/WebP/mount-pinatubo-zambales.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Mount-Pinatubo-Thumbnail.webp",
+        "place": "Mount Pinatubo",
+        "desc": "<p>Mount Pinatubo, a dormant volcano north of Manila, discharged millions of tons of sulfur dioxide in the air on June 1991, when it was awaken after more than 600 years of dormancy, on what is considered as the largest and most catastrophic volcanic eruption in the recent years.</p><p>Ashes covered the entire Luzon landmass and even reached Vietnam, Thailand, Malaysia and other neighboring Asian countries.</p><p>Close to a thousand perished, more than a hundred thousand lost their homes, and billion worth of crops were damaged. The eruption also brought down the world temperature by a few centigrade.</p>",
+        "info-title": "Summer Capital of the Philippines",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "emoji_flags",
+            "icon-name": "Landmarks"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Batad Rice Terraces",
+        "image": "./Resources/Assets/WebP/batad-rice-terraces.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Rice-Terraces-Thumbnail.webp",
+        "place": "Batad Rice Terraces",
+        "desc": "<p>For 2,000 years, the high rice fields of the Ifugao have followed the contours of the mountains. The fruit of knowledge handed down from one generation to the next, and the expression of sacred traditions and a delicate social balance, they have helped to create a landscape of great beauty that expresses the harmony between humankind and the environment.</p><p>The Rice Terraces of the Philippine Cordilleras is an outstanding example of an evolved, living cultural landscape that can be traced as far back as two millennia ago in the pre-colonial Philippines. The terraces are located in the remote areas of the Philippine Cordillera mountain range on the northern island of Luzon, Philippine archipelago. While the historic terraces cover an extensive area, the inscribed property consists of five clusters of the most intact and impressive terraces, located in four municipalities.  They are all the product of the Ifugao ethnic group, a minority community that has occupied these mountains for thousands of years.</p>",
+        "info-title": "Rice Terraces of the Philippine Cordilleras",
+        "offers": [
+          {
+            "icon": "Agriculture",
+            "icon-name": "agriculture"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          }
+        ]
+      },
+      {
+        "name": "Batanes",
+        "image": "./Resources/Assets/PopualWebP/Batanes.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Batanes-Thumbnail.png",
+        "place": "Batanes",
+        "info-title": "Home of the Winds",
+        "desc": "Remote and isolated, Batanes is the northernmost province in the Philippines. It’s a 10-piece archipelago, with the three biggest islands being the only ones inhabited: Sabtang, Batan, and Itbayat. Sabtang and Itbayat are their own municipalities, while Batan is further divided into Basco, Ivana, Uyugan, and Mahatao. Although it is the capital, Basco isn’t a city but a small town. It is also where the main airport is located and the most populated.",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      },
+      {
+        "name": "Vigan",
+        "image": "./Resources/Assets/PopualWebP/Vigan.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Vigan-Thumbnail.png",
+        "place": "Vigan",
+        "info-title": "Experience Vigan: Cultural Heritage Unleashed",
+        "desc": "<p>Welcome to Vigan, a city that transports you back in time with its enchanting colonial charm. Nestled in the northern region of the Philippines, Vigan is a UNESCO World Heritage Site and a true gem of cultural heritage. From its cobbled streets and preserved ancestral houses to its vibrant local markets, this city is a testament to the rich history and traditions of the Philippines. Whether you're a history buff, an architecture enthusiast, or simply a traveler seeking a unique experience, Vigan has something incredible to offer.</p><p>Immerse yourself in the allure of Vigan's architectural wonders as you explore its famous Calle Crisologo. This iconic street, lined with well-preserved Spanish-era houses, exudes a nostalgic charm that will transport you to a bygone era. Take a leisurely walk along the cobblestone paths, admiring the intricate details of the heritage buildings, or hop on a kalesa (horse-drawn carriage) for an even more immersive experience. As you stroll through the city, make sure to indulge in the local cuisine and try the famous Vigan longganisa, a savory local sausage that will tantalize your taste buds.</p><p>Vigan's rich cultural heritage extends beyond its architecture. Don't miss the chance to visit the Syquia Mansion Museum, once the home of President Elpidio Quirino. Explore the museum's exhibits showcasing personal artifacts, historical memorabilia, and an intimate glimpse into the life of a Philippine president. Another must-visit is the Pagburnayan Pottery, where skilled artisans create beautiful earthenware using traditional methods passed down through generations. Witness the pottery-making process and even try your hand at molding your own clay masterpiece.</p><p>To complete your Vigan experience, head to the bustling Vigan Public Market, where you'll find an array of local products and delicacies. From vibrant textiles and handicrafts to delectable treats like bagnet (crispy pork belly) and empanada (a savory pastry filled with meat and vegetables), the market offers a sensory overload of sights, sounds, and flavors. Grab a souvenir to remember your journey or savor the local delights right then and there. Vigan is a destination that seamlessly weaves the past and the present, leaving visitors with memories to cherish and stories to share.</p>",
+        "offers": [
+          {
+            "icon": "museum",
+            "icon-name": "Living Museum"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "redeem",
+            "icon-name": "Souvenirs"
+          }
+        ]
+      },
+      {
+        "name": "Intramuros",
+        "image": "./Resources/Assets/Info_Images/Intramuros_PNGs/Intramuros_3.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Intramuros_PNGs/Intramuros_3.jpg",
+        "place": "Intramuros",
+        "info-title": "Discover Intramuros: Manila's Living Museum",
+        "desc": "<p>Step into the heart of Manila's past as you enter Intramuros, a fortified city that encapsulates centuries of Philippine history. Located within the bustling capital, Intramuros is a captivating blend of Spanish colonial architecture, well-preserved ruins, and a vibrant cultural scene. Embark on a journey through time as you wander through its narrow cobblestone streets and uncover the tales that shaped this remarkable city.</p><p>Begin your exploration at Fort Santiago, a historic citadel that stands as a testament to the Spanish colonial period. Walk along its ancient walls, venture into the dungeons, and discover the Rizal Shrine—a museum dedicated to the national hero, Dr. Jose Rizal. As you delve deeper into Intramuros, you'll encounter magnificent structures like the San Agustin Church, a UNESCO World Heritage Site renowned for its intricate baroque architecture and ornate interiors. The church's museum houses a remarkable collection of religious artifacts and artworks.</p><p>Intramuros offers more than just architectural marvels. Dive into the vibrant arts and culture scene by visiting the Bahay Tsinoy Museum, which narrates the story of the Filipino-Chinese community and its contributions to the country's history. Art enthusiasts will appreciate the Casa Manila Museum, a reconstructed Spanish colonial house showcasing the opulent lifestyle of the past. Stroll along the picturesque Plaza San Luis Complex, where you'll find a variety of boutique shops, galleries, and charming restaurants.</p><p>To truly immerse yourself in the spirit of Intramuros, take a guided bamboo bike tour or join a walking tour led by knowledgeable guides who will regale you with intriguing anecdotes and historical facts. Indulge in a traditional Filipino meal at one of the quaint restaurants, offering a delectable fusion of local and international flavors. Don't forget to stop by the vibrant weekend market at Plaza Roma, where you can shop for unique crafts, artworks, and souvenirs to commemorate your visit.</p><p>From its awe-inspiring architecture to its captivating stories, Intramuros stands as a living testament to Manila's rich cultural heritage. It invites visitors to explore the layers of history that have shaped the Philippines and offers a glimpse into the nation's vibrant present. Come and be captivated by the timeless allure of Intramuros, where the echoes of the past intertwine with the energy of the present.</p>",
+        "offers": [
+          {
+            "icon": "museum",
+            "icon-name": "Living Museum"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "redeem",
+            "icon-name": "Souvenirs"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Forests",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/FORESTS.png",
+    "info": [
+      {
+        "name": "Sierra Madre National Park",
+        "image": "./Resources/Assets/Info_Images/Sierra_Madre_National_Park_PNGs/SMNP_2.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Sierra_Madre_National_Park_PNGs/SMNP_2.jpg",
+        "place": "Sierra Madre National Park",
+        "info-title": "Sierra Madre National Park: Nature's Untamed Beauty",
+        "desc": "<p>Venture into the wild embrace of Sierra Madre National Park, a haven of untamed beauty in the Philippines. With its rugged terrain, lush rainforests, and diverse ecosystems, this natural paradise is a playground for nature enthusiasts and adventurers seeking a thrilling escape. Prepare to be captivated by the raw power and exquisite charm of Sierra Madre as you embark on an unforgettable journey through its magnificent landscapes.</p><p>Sierra Madre National Park boasts a wealth of natural wonders that will leave you in awe. Towering mountain ranges stretch as far as the eye can see, their peaks piercing the heavens. Dense jungles teem with exotic wildlife, showcasing the rich biodiversity of this pristine ecosystem. Crystal-clear rivers meander through the forest, providing a lifeline to countless species of plants and animals. Each step reveals a new marvel, a testament to the resilience and beauty of nature.</p><p>Immerse yourself in the boundless opportunities for adventure that await in Sierra Madre National Park. Trek through its challenging trails, navigating through dense foliage and steep inclines. Encounter rare species such as the Philippine eagle, the cloud rat, and the tamaraw, reminding you of the park's importance in preserving these precious creatures. Explore hidden waterfalls and sparkling lagoons, taking a moment to soak in the serenity of these hidden gems.</p><p>Sierra Madre National Park is not just a destination for outdoor enthusiasts; it is also a sanctuary for the soul. The sheer magnitude and unspoiled beauty of this untamed wilderness inspire a sense of wonder and reverence. Take a moment to connect with the rhythm of nature, allowing the sounds of the forest and the scent of the earth to wash over you. Sierra Madre National Park is a testament to the power and resilience of the natural world, reminding us of our responsibility to protect and cherish these precious ecosystems for generations to come.</p>",
+        "offers": [
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "redeem",
+            "icon-name": "Souvenirs"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          }
+        ]
+      },
+      {
+        "name": "Mount Arayat National Park",
+        "image": "./Resources/Assets/Info_Images/Mount_Arayat_National_Park_PNGs/MANP_2.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Mount_Arayat_National_Park_PNGs/MANP_2.jpg",
+        "place": "Mount Arayat National Park",
+        "info-title": "Mount Arayat National Park: Nature's Timeless Wonder",
+        "desc": "<p>Step into the realm of Mount Arayat National Park, a timeless wonder that stands tall in the Philippines. With its majestic peak, rich biodiversity, and awe-inspiring landscapes, this natural masterpiece beckons adventurers and nature enthusiasts to embark on a journey of discovery. From the moment you set foot in this enchanting sanctuary, you'll be captivated by its unspoiled beauty and the sense of serenity that permeates the air.</p><p>The towering presence of Mount Arayat dominates the horizon, commanding attention and admiration. As you venture deeper into the national park, you'll be greeted by a tapestry of lush vegetation, pristine rivers, and diverse wildlife. The melodious songs of colorful birds fill the air, harmonizing with the rustling of leaves and the whispering wind. Every step unveils a new vista, offering breathtaking panoramas that will leave you in awe of nature's grandeur.</p><p>Mount Arayat National Park is a playground for outdoor enthusiasts, offering a range of activities to suit every adventurer. Hike along its well-marked trails, each leading to hidden gems and stunning viewpoints. From the summit, be rewarded with panoramic vistas that stretch as far as the eye can see, showcasing the patchwork of verdant fields, distant mountains, and picturesque towns. Immerse yourself in the peacefulness of the park, embracing the harmony between human and nature.</p><p>Mount Arayat is steeped in folklore and legend, adding a touch of magic to its already captivating allure. According to local mythology, the mountain is believed to be the abode of mythical creatures and spirits, lending an air of mysticism to the surrounding landscape. As you explore this enchanting sanctuary, take a moment to appreciate the cultural significance and the deep-rooted connection between the land and its people. Mount Arayat National Park is a testament to the enduring power of nature and the stories it weaves throughout time.</p>",
+        "offers": [
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "redeem",
+            "icon-name": "Souvenirs"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      },
+      {
+        "name": "Mount Makiling Forest Reserve",
+        "image": "./Resources/Assets/Info_Images/Mount_Makiling_Forest_Reserve_PNGs/MMFR_3.webp",
+        "thumbnail": "./Resources/Assets/Info_Images/Mount_Makiling_Forest_Reserve_PNGs/MMFR_3.webp",
+        "place": "Mount Makiling Forest Reserve",
+        "info-title": "Mount Makiling Forest Reserve: Nature's Healing Haven",
+        "desc": "<p>Discover the healing powers of Mount Makiling Forest Reserve, a sanctuary nestled in the heart of the Philippines. This pristine natural haven offers a respite from the chaos of daily life and invites you to reconnect with the restorative energy of nature. With its lush greenery, therapeutic hot springs, and mystical legends, Mount Makiling Forest Reserve promises a rejuvenating journey for the mind, body, and soul.</p><p>As you delve into the depths of Mount Makiling Forest Reserve, a sense of tranquility washes over you. The towering trees create a protective canopy, allowing dappled sunlight to filter through, casting a soothing glow. The air is crisp and filled with the invigorating scent of the forest, revitalizing your senses with every breath. As you immerse yourself in the natural surroundings, feel the weight of stress and worries melt away.</p><p>Mount Makiling Forest Reserve offers a plethora of opportunities for relaxation and recreation. Take a leisurely hike along its scenic trails, where you'll encounter sparkling waterfalls cascading into crystal-clear pools. Indulge in the therapeutic benefits of the natural hot springs, renowned for their mineral-rich waters believed to possess healing properties. The harmonious symphony of birdsong and the gentle rustling of leaves create a soothing soundtrack as you unwind and reconnect with your inner self.</p><p>The legends and folklore surrounding Mount Makiling add an element of mystique to this enchanting forest reserve. According to local mythology, the mountain is said to be the dwelling place of the benevolent spirit, Maria Makiling, who watches over the land and its inhabitants. As you explore the forest, you can't help but feel a sense of connection to something greater than yourself, a profound link between humans and the natural world. Mount Makiling Forest Reserve is a place of healing, where you can find solace, harmony, and a renewed sense of well-being.</p>",
+        "offers": [
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      },
+      {
+        "name": "Mount Pulag National Park",
+        "image": "./Resources/Assets/Info_Images/Mount_Pulag_National_Park_PNGs/MPNP_1.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Mount_Pulag_National_Park_PNGs/MPNP_1.jpg",
+        "place": "Mount Pulag National Park",
+        "info-title": "Mount Pulag National Park: Nature's Majestic Retreat",
+        "desc": "<p>Set foot in Mount Pulag National Park, a majestic retreat nestled in the heart of the Philippines. Known as the \"Playground of the Gods,\" this natural wonderland is a haven for outdoor enthusiasts and adventurers seeking a true escape into the beauty of nature. Prepare to be captivated by the awe-inspiring landscapes, breathtaking views, and the ethereal beauty that awaits atop its towering peaks.</p><p>As you venture into Mount Pulag National Park, you'll be greeted by a kaleidoscope of colors. The park is renowned for its stunning sunrise and sunset vistas, where the sky transforms into a vibrant canvas of oranges, pinks, and purples. Witnessing the sun's first rays illuminating the sea of clouds below is a truly awe-inspiring experience that will leave an indelible mark on your soul.</p><p>Mount Pulag National Park offers a myriad of outdoor activities for nature enthusiasts. Embark on an exhilarating hike to the summit, conquering challenging trails along the way. The reward? Standing atop the highest peak in Luzon, where panoramic views of the surrounding mountains and valleys unfold before your eyes. Marvel at the unique flora and fauna that thrive in this high-altitude environment, including the iconic dwarf bamboo and the vibrant Benguet pine trees.</p><p>The beauty of Mount Pulag National Park extends beyond its physical grandeur. It holds a special place in the cultural heritage of the indigenous tribes that call this region home. The park is deeply intertwined with their traditions and beliefs, with rituals and ceremonies still being practiced to this day. Immerse yourself in the rich tapestry of local culture and gain a deeper appreciation for the symbiotic relationship between humans and nature. Mount Pulag National Park is not just a destination—it's a transformative journey of self-discovery and connection with the natural world.</p>",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      },
+      {
+        "name": "Sayang Mossy Forest",
+        "image": "./Resources/Assets/Info_Images/Sayang_Mossy_Forest_PNGs/SMF_2.webp",
+        "thumbnail": "./Resources/Assets/Info_Images/Sayang_Mossy_Forest_PNGs/SMF_2.webp",
+        "place": "Sayang Mossy Forest",
+        "info-title": "Sayang Mossy Forest: A Captivating Escape",
+        "desc": "<p>Discover the enchanting wonders of Sayang Mossy Forest, nestled in the heart of the Philippines. This hidden gem offers a unique and immersive experience for nature lovers and adventure seekers alike. With its lush greenery, misty ambiance, and diverse wildlife, Sayang Mossy Forest promises an unforgettable journey into the captivating beauty of the Philippines' natural landscape.</p><p>As you enter Sayang Mossy Forest, be prepared to be amazed by its breathtaking sights. The dense canopy of moss-covered trees creates an otherworldly atmosphere, casting an ethereal glow that seems straight out of a fairy tale. The cool, refreshing air heightens your senses, and the sound of chirping birds and rustling leaves creates a soothing symphony that transports you to a world far away from the hustle and bustle of city life.</p><p>Sayang Mossy Forest is a paradise for hikers and nature enthusiasts. Embark on a trek through the forest's winding trails, marveling at the diverse flora and fauna that call this place home. Catch glimpses of colorful birds fluttering among the branches, spot rare orchids nestled among the foliage, and if you're lucky, you might even encounter some of the forest's elusive inhabitants, such as the cloud rats and the Philippine warty pigs.</p><p>The mesmerizing beauty of Sayang Mossy Forest extends beyond its natural allure. The forest is also a sanctuary for those seeking tranquility and inner peace. Find solace in the serenity of this untouched paradise, where the symphony of nature replaces the noise of the modern world. Whether you're seeking adventure or simply yearning for a moment of stillness, Sayang Mossy Forest is the perfect destination to reconnect with yourself and the beauty of the natural world.</p>",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      },
+      {
+        "name": "Mount Amuyao Forest",
+        "image": "./Resources/Assets/Info_Images/Mount_Amuyao_Forest_PNGs/MAF_1.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Mount_Amuyao_Forest_PNGs/MAF_1.jpg",
+        "place": "Mount Amuyao Forest",
+        "info-title": "Mount Amuyao Forest: Nature's Tranquil Haven",
+        "desc": "<p>Tucked away in the picturesque landscapes of the Philippines, Mount Amuyao Forest beckons travelers to immerse themselves in its serene embrace. A true haven for nature enthusiasts, this hidden gem offers an opportunity to escape the chaos of everyday life and find solace amidst the enchanting beauty of the wilderness. Prepare to embark on a remarkable journey as you explore the captivating wonders of Mount Amuyao Forest.</p><p>As you ascend the trails of Mount Amuyao Forest, a sense of tranquility washes over you. Towering trees provide shelter from the scorching sun, their leaves dancing with the gentle breeze. The symphony of birdsong fills the air, creating a harmonious melody that resonates deep within your soul. The verdant foliage and cascading waterfalls add to the visual feast, making every step an awe-inspiring experience.</p><p>Mount Amuyao Forest is not only a treat for the senses but also a sanctuary for adventure seekers. Hiking enthusiasts will find themselves captivated by the challenging yet rewarding trails that lead to breathtaking vistas. Marvel at panoramic views of rolling hills, deep valleys, and distant peaks that seem to touch the sky. As you conquer the summit, a sense of accomplishment washes over you, knowing that you have witnessed nature's grandeur at its finest.</p><p>Beyond its physical beauty, Mount Amuyao Forest holds a special place in the hearts of locals who consider it sacred. The forest is believed to be the dwelling place of ancestral spirits, adding an element of mystique to the already captivating ambiance. As you explore the forest, take a moment to appreciate the cultural significance and rich history that permeate the air. Mount Amuyao Forest is not just a destination—it's a spiritual journey that connects you to the land and its people.</p>",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "forest",
+            "icon-name": "Wild Life"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Islands",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/ISLANDS.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "image": "./Resources/Assets/PopualWebP/Boracay.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Featured/Boracay-Thumbnail.png",
+        "place": "Boracay",
+        "desc": "Boracay, one of the top Islands in the Philippines,  is popular for its beaches and blessed with a long stretch of powdery white sand, crystal clear and azure waters, and a stunning sunset. Boracay is the most iconic island in the Philipines and has won multiple awards in previous years. In 2019, Boracay was the top of the Asia Category in Conde Nast Traveler's The Best Islands in the World 2019 Readers Choice Awards. In 2020, Boracay retains its Top 10 island status alongside other Philippine Islands as it places 6th in the Top 10 list. You'll never run out of exciting things to do in Boracay, from swimming, island-hopping, diving, snorkeling, parasailing, and kayaking.",
+        "info-title": "One of the best beach in the world!",
+        "offers": [
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          },
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      },
+      {
+        "name": "Nacpan",
+        "image": "./Resources/Assets/WebP/nacpan-elnido.webp",
+        "thumbnail": "./Resources/Assets/Thumbnails/Discover/Nacpan-Elnido-Thumbnail.webp",
+        "place": "Nacpan Beach",
+        "desc": "<p><b>What to do</b></p><p>Despite its popularity, Nacpan Beach generally only has a few visitors at a time. Hence, it is ideal for those who prefer more serene surroundings that are ideal for relaxing. Tourists can lie on the beach or settle in hammocks if they want to sunbathe.</p><p>Aside from swimming, visitors can also go surfing, kayaking, and stand-up paddleboarding. If you want to discover what kind of marine life lives off the shore, you can rent snorkeling gear from various stores and resorts along the beach.</p><p>Nacpan Beach is also known for the handful of local restaurants that offer various cuisines. There are also snacks for sale along the beach's entrance that are perfect for a pick-me-up while strolling along the sand.</p><p><b>Nearby tourist destinations</b></p><p>Nacpan is one-half of the popular twin beaches in the area—the other one is called Calitang Beach. The two beaches merge in a narrow sandbar that snakes into a lush hill, which offers an excellent view of Nacpan and Calitang. Tourists must trek to the southern portion of Nacpan to reach the hill where it meets with the smaller Calitang Beach. Calitang is also a stretch of white sand, but its waves are calmer than those in Nacpan. It is a fishing village with multi-colored boats anchored along the shore.</p><p><b>How to Get There</b></p><p>The most convenient and comfortable way is to book a shuttle service, which is usually part of organized tours going to Nacpan Beach. This is also a great way to meet other travelers as you will most likely share the service with other people.</p><p>For a more authentic island experience, you can hop on a tricycle to get to Nacpan Beach. While this is cheaper, expect a more bumpy ride as some parts of the road going to the beach are not fully cemented and are sometimes muddy.</p><p>You can also rent a motorbike and drive your way to Nacpan. Most budget travelers and thrill-seekers opt to do this since rental rates for an entire day are cheaper than a shuttle or tricycle service, plus they also have the freedom to go at their own pace and explore other places around Nacpan Beach and the rest of El Nido. As mentioned, some roads leading to Nacpan are still not in great condition, so be extra careful when choosing this transport option.</p><p><b>Best Time to Visit</b></p><p>It is highly recommended to visit Nacpan Beach during the country's summer season, which usually starts in March and ends in late May. But since this is peak travel season, expect to bump into a crowd of tourists — although it does not get too busy compared to other popular beach destinations in the Philippines.</p><p>If you are a fan of sunsets, it is best to arrive before 5 PM so you can catch the sun dip behind the horizon and paint the sky above Nacpan Beach beautiful shades of orange and pink.</p>",
+        "info-title": "Summer Capital of the Philippines",
+        "offers": [
+          {
+            "icon": "ac_unit",
+            "icon-name": "Weather"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "emoji_flags",
+            "icon-name": "Landmarks"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Bantayan Island",
+        "image": "./Resources/Assets/Info_Images/Bantayan_Island_PNGs/Bantayan_5.png",
+        "thumbnail": "./Resources/Assets/Info_Images/Bantayan_Island_PNGs/Bantayan_5.png",
+        "place": "Bantayan Island",
+        "desc": "<p>If you're in search of idyllic beaches, warm turquoise waters, and a tranquil atmosphere, look no further than Bantayan Island in Cebu. This tropical paradise in the Philippines is a hidden gem that will transport you to a world of relaxation and natural beauty. With its pristine shores, friendly locals, and a laid-back island vibe, Bantayan Island is the perfect escape from the hustle and bustle of everyday life.</p><p>As you set foot on Bantayan Island, you'll be greeted by powdery white sand beaches that stretch for miles, fringed by swaying coconut trees. Immerse yourself in the crystal-clear waters and discover a colorful underwater world teeming with marine life. Snorkel or dive along the vibrant coral reefs, or simply bask in the sun as you listen to the gentle lapping of the waves.</p><p>Beyond the beaches, Bantayan Island offers a chance to explore its charming villages and immerse yourself in the local culture. Take a leisurely bike ride through the island's picturesque landscapes, passing by quaint churches and friendly faces along the way. Indulge in the fresh flavors of the island's seafood delicacies and experience the warm hospitality of the locals who are always ready to share stories and recommendations.</p><p>For an unforgettable experience, make sure to visit Virgin Island, a tiny uninhabited islet just a short boat ride away from Bantayan Island. This secluded paradise is a haven of tranquility, with its pristine beaches, shallow sandbars, and clear waters. Take a leisurely stroll along the shoreline or simply unwind in a hammock, letting the worries of the world drift away.</p><p>Bantayan Island is a tropical paradise that will soothe your soul and rejuvenate your spirit. From its stunning beaches to its warm-hearted locals, this island oasis offers an escape like no other. So, pack your bags, leave your worries behind, and let Bantayan Island work its magic on you.</p>",
+        "info-title": "Bantayan Island, Cebu: Tropical Bliss Awaits",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      },
+      {
+        "name": "Coron",
+        "image": "./Resources/Assets/Info_Images/Coron_PNGs/Coron_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Coron_PNGs/Coron_1.png",
+        "place": "Coron",
+        "desc": "<p>Hidden away in the pristine waters of Palawan, Coron is a tropical paradise that will leave you in awe. With its crystal-clear turquoise lagoons, dramatic limestone cliffs, and world-renowned shipwrecks, Coron offers a unique blend of natural beauty and intriguing history. Get ready to dive into a world of wonder as you explore this captivating destination in the Philippines.</p><p>Coron is famous for its magnificent lagoons, such as the enchanting Kayangan Lake and the otherworldly Barracuda Lake. Dive into their emerald waters and be mesmerized by the surreal underwater rock formations and the vibrant marine life that thrives beneath the surface. Take a kayak or paddleboard and navigate through the secluded lagoons, immersing yourself in the serenity of these hidden gems.</p><p>For history enthusiasts, Coron's underwater treasure trove awaits. Explore the iconic World War II Japanese shipwrecks, resting at the bottom of the sea. These hauntingly beautiful sites provide a glimpse into the past, where nature and history coexist in perfect harmony. Discover the haunting beauty of the Skeleton Wreck and the vibrant coral reefs that have colonized these sunken relics.</p><p>Above water, Coron showcases its majestic landscapes. Embark on a hike to Mount Tapyas and be rewarded with panoramic views of the surrounding islands and turquoise waters. Take a boat tour to the stunning Twin Lagoons, where towering limestone cliffs enclose hidden pools of clear, shimmering water.</p><p>Coron is a destination that will capture your imagination and leave you longing for more. Its untouched beauty and rich history make it a must-visit for any traveler seeking an extraordinary adventure.</p>",
+        "info-title": "Coron: Unveiling the Hidden Treasures",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      },
+      {
+        "name": "Camiguin",
+        "image": "./Resources/Assets/Info_Images/Camiguin_PNGs/Camiguin_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Camiguin_PNGs/Camiguin_3.png",
+        "place": "Camiguin",
+        "desc": "<p>Nestled in the Bohol Sea, Camiguin is a hidden paradise that will take your breath away. Known as the \"Island of Fire and Water\", this enchanting destination in the Philippines offers a unique blend of natural wonders, cultural heritage, and warm hospitality. With its pristine beaches, majestic waterfalls, and volcanic landscapes, Camiguin is a must-visit for travelers seeking an off-the-beaten-path adventure.</p><p>As you step foot on Camiguin, you'll be greeted by its stunning coastline adorned with powdery white sand and crystal-clear turquoise waters. Spend your days basking under the tropical sun, snorkeling in vibrant coral reefs, or taking a refreshing dip in the island's natural springs. Don't miss the chance to visit the iconic White Island, a picturesque sandbar that emerges during low tide, offering panoramic views of the surrounding azure waters.</p><p>Camiguin is also home to a multitude of majestic waterfalls, each with its own unique charm. Marvel at the cascading waters of Katibawasan Falls, which plunge from a height of 250 feet into a refreshing pool below. Explore the mystical beauty of Tuasan Falls, nestled amidst lush greenery and rock formations, creating a tranquil oasis perfect for relaxation.</p><p>One of the highlights of Camiguin is its volcanic landscapes, as the island is home to several volcanoes. Embark on a trek to Mount Hibok-Hibok, an active volcano that rewards adventurers with breathtaking views from its summit. Explore the Sunken Cemetery, a submerged graveyard resulting from a volcanic eruption, where you can snorkel and witness the colorful marine life that has made it their home.</p><p>Camiguin is a destination that will ignite your sense of wonder and leave you with unforgettable memories. From its fiery volcanoes to its serene waters, this island paradise is a true gem waiting to be discovered.</p>",
+        "info-title": "Camiguin: The Island of Fire and Water",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      },
+      {
+        "name": "Siargao",
+        "image": "./Resources/Assets/Info_Images/Siargao_PNGs/Siargao_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Siargao_PNGs/Siargao_2.png",
+        "place": "Siargao",
+        "desc": "<p>Siargao, known as the surfing capital of the Philippines, has become a must-visit destination for thrill-seekers and beach lovers alike. Located in the province of Surigao del Norte, this enchanting island offers a perfect blend of breathtaking landscapes, thrilling waves, and laid-back island vibes that will make you fall in love at first sight.</p><p>The allure of Siargao lies in its world-class surf breaks, attracting surfers from all corners of the globe. Cloud 9, one of the most famous surf spots, offers powerful barrels that will challenge even the most experienced riders. But even if you're not a surfer, Siargao has plenty to offer. Explore the hidden lagoons and mangrove forests by paddleboard or kayak, immersing yourself in the island's natural wonders.</p><p>As the sun sets on Siargao, the island comes alive with vibrant energy. Join the beachside bonfires, indulge in fresh seafood feasts, and let the rhythmic sounds of live music carry you away. The island's welcoming locals and the sense of community will make you feel right at home.</p><p>Beyond the surf and sunsets, Siargao offers a chance to reconnect with nature. Discover the mystical beauty of Sugba Lagoon, where emerald waters and lush greenery create a postcard-perfect setting. Dive into the crystal-clear waters of Magpupungko Rock Pools, where natural rock formations create a stunning natural pool to swim in.</p>",
+        "info-title": "Siargao: Surf, Sunsets, and Island Bliss",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      },
+      {
+        "name": "Apo Island",
+        "image": "./Resources/Assets/Info_Images/Apo_Island_PNGs/Apo_Island_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Apo_Island_PNGs/Apo_Island_2.png",
+        "place": "Apo Island",
+        "desc": "<p>When it comes to tropical destinations, Apo Island in the Philippines is a true gem waiting to be discovered. Nestled in the Visayas region, this picturesque island offers breathtaking natural beauty, pristine beaches, and vibrant marine life that will leave you in awe. Apo Island is renowned for its incredible diving and snorkeling spots, making it a haven for underwater enthusiasts.</p><p>As you step foot on the island, you'll be greeted by crystal-clear turquoise waters and powdery white sands that stretch as far as the eye can see. Whether you're a seasoned diver or a beginner, the vibrant coral reefs of Apo Island will take your breath away. Dive into a world teeming with colorful tropical fish, graceful sea turtles, and stunning coral formations. Don't forget to visit the Apo Island Marine Sanctuary, a protected area that showcases the island's commitment to preserving its rich marine ecosystem.</p><p>Beyond the underwater wonders, Apo Island offers other exciting activities. Embark on a hike to the island's highest peak, where panoramic views of the surrounding seascape will leave you in awe. Take a leisurely stroll through the charming village and interact with the friendly locals who are always ready to share stories about their island paradise. And when the sun sets, prepare to be captivated by the mesmerizing sight of the starlit sky, unpolluted by city lights.</p><p>Apo Island is a place that will rejuvenate your spirit and leave you with lasting memories. So, pack your bags, grab your snorkeling gear, and get ready to embark on an unforgettable adventure in this tropical paradise. Apo Island is calling, and it's time to answer.</p>",
+        "info-title": "Paradise Found: Exploring Apo Island's Hidden Gems",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "local_activity",
+            "icon-name": "Local Activities"
+          },
+          {
+            "icon": "group",
+            "icon-name": "Locals"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Cities",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/CITIES.png",
+    "info": [
+      {
+        "name": "Quezon City",
+        "image": "./Resources/Assets/Info_Images/QC_PNGs/QC_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/QC_PNGs/QC_4.png",
+        "place": "Quezon",
+        "desc": "<p>Quezon City is one of the most populous and dynamic cities in the Philippines, offering a variety of attractions and experiences for travelers. Whether you are looking for culture, nature, entertainment, or food, you will find something to suit your taste in this bustling metropolis. Here are some of the good points that Quezon City has to offer:</p><h3>Art and Culture</h3><p>If you are interested in art and culture, you will not be disappointed by Quezon City. You can visit Art in Island, a museum that features 3D interactive illusions and murals that you can pose with and take amazing photos. You can also explore the University of the Philippines, the country’s premier educational institution, which has a beautiful campus with old and new buildings, as well as museums, galleries, and theaters. Another cultural gem is the Sining Kamalig, an art gallery that showcases contemporary and political works by local artists.</p><h3>Nature and Parks</h3><p>If you are looking for a green escape from the urban hustle, you will find plenty of options in Quezon City. You can visit the La Mesa Eco Park, a 33-hectare park that offers recreational activities such as biking, boating, fishing, swimming, and zip-lining. You can also enjoy the Quezon Memorial Circle, a park that commemorates the former president Manuel L. Quezon and features gardens, monuments, museums, and a giant mausoleum. Another option is the Ninoy Aquino Parks and Wildlife Center, a zoo and botanical garden that houses various animals and plants, as well as a pond where you can relax.</p><h3>Entertainment and Shopping</h3><p>If you are looking for some fun and excitement, you will find plenty of options in Quezon City. You can visit Eastwood City, a mixed-use development that offers shopping malls, restaurants, bars, cinemas, hotels, and offices. You can also catch a show or a game at the Smart Araneta Coliseum, a large event center that hosts concerts, sports, and other events. Another option is Cubao Expo, a shopping mall that features vintage shops, art galleries, cafes, and bars.</p><h3>Food and Dining</h3><p>If you are looking for some delicious and diverse food options, you will find plenty of options in Quezon City. You can visit Maginhawa Food Park, a street that is lined with food stalls, trucks, and carts that offer various cuisines and dishes. You can also try some of the local specialties such as pancit palabok (noodles with shrimp sauce), lechon kawali (deep-fried pork belly), sisig (sizzling chopped pork), halo-halo (shaved ice with mixed fruits), and puto bumbong (purple rice cake). Another option is to visit some of the famous restaurants in Quezon City such as Romulo Cafe, Gerry’s Grill, Max’s Restaurant, and Banapple.</p>",
+        "info-title": "Quezon City: A Vibrant Destination in the Philippines",
+        "offers": [
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "restaurant",
+            "icon-name": "Famous Restaurants"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Manila City",
+        "image": "./Resources/Assets/Info_Images/Manila_PNGs/Manila_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Manila_PNGs/Manila_3.png",
+        "place": "Manila",
+        "desc": "<p>Manila City is the capital and the cultural, economic, and political center of the Philippines, offering a rich and varied experience for travelers. Whether you are looking for history, culture, nature, or entertainment, you will find something to suit your interest in this vibrant city. Here are some of the places to visit in Manila City:<h3>History and Culture</h3>If you are interested in history and culture, you will not be disappointed by Manila City. You can visit <b>Rizal Park</b>, a historical park that honors the national hero Jose Rizal and features gardens, monuments, museums, and a planetarium. You can also explore <b>Intramuros</b>, the walled city that was the seat of Spanish colonial rule and contains historical landmarks such as <b>Fort Santiago</b>, <b>San Agustin Church</b>, and <b>Manila Cathedral</b>. Another cultural attraction is the <b>National Museum of Anthropology</b>, which showcases the diverse heritage and culture of the Filipino people.<h3>Nature and Parks</h3>If you are looking for a green escape from the urban hustle, you will find plenty of options in Manila City. You can visit <b>Manila Ocean Park</b>, one of the biggest aquariums in the world with more than 14,000 animals across 270 marine species. You can also enjoy <b>Paco Park</b>, a former cemetery that was converted into a park that features gardens, fountains, a chapel, and a concert venue. Another option is <b>Arroceros Forest Park</b>, an urban forest that houses various trees and birds, as well as a butterfly sanctuary.<h3>Entertainment and Shopping</h3>If you are looking for some fun and excitement, you will find plenty of options in Manila City. You can visit <b>The Dessert Museum</b>, a museum that features eight rooms themed after different desserts such as donuts, marshmallows, candy canes, and ice cream. You can also try some of the <b>Escape Rooms</b>, where you have to solve puzzles and clues to escape from different scenarios such as prison break, zombie apocalypse, or haunted house. Another option is <b>Star City Amusement Park</b>, a park that offers various rides and attractions such as roller coasters, ferris wheel, haunted house, and snow world.<h3>Food and Dining</h3>If you are looking for some delicious and diverse food options, you will find plenty of options in Manila City. You can visit <b>Chinatown</b>, one of the oldest Chinatowns in the world that offers gold and pearl items, as well as authentic Chinese cuisine such as dim sum, noodles, roast duck, and hopia. You can also try some of the local specialties such as adobo (meat stewed in vinegar and soy sauce), kare-kare (oxtail stew with peanut sauce), sinigang (sour soup with meat or seafood), halo-halo (shaved ice with mixed fruits), and leche flan (caramel custard). Another option is to visit some of the famous restaurants in Manila City such as <b>Barbara’s Heritage Restaurant</b>, <b>Cafe Ilang-Ilang</b>, <b>Harbor View Restaurant</b>, and <b>The Aristocrat</b>.",
+        "info-title": "Manila City: A Diverse and Dynamic Destination in the Philippines",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "restaurant",
+            "icon-name": "Famous Restaurants"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Davao City",
+        "image": "./Resources/Assets/Info_Images/Davao_PNGs/Davao_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Davao_PNGs/Davao_1.png",
+        "place": "Davao",
+        "desc": "<p>Davao City is one of the largest and most progressive cities in the Philippines, offering a mix of urban and rural attractions and experiences for travelers. Whether you are looking for nature, wildlife, adventure, or culture, you will find something to suit your interest in this diverse city. Here are some of the places to visit in Davao City:<h3>Nature and Wildlife</h3><p>If you are interested in nature and wildlife, you will not be disappointed by Davao City. You can visit <b>Philippine Eagle Center</b>, a conservation center that houses and breeds the majestic Philippine eagle, as well as other birds and animals. You can also explore <b>Davao Crocodile Park</b>, a park that features various crocodiles and reptiles, as well as other animals such as tigers, monkeys, and birds. Another option is <b>Mount Apo</b>, the highest mountain in the Philippines that offers scenic views and challenging trails for hikers and climbers.<h3>Culture and History</h3><p>If you are interested in culture and history, you will not be disappointed by Davao City. You can visit <b>D’ Bone Collector Museum</b>, a museum that displays a large collection of bones from whales, dolphins, sharks, birds, and other animals. You can also visit San Pedro Cathedral, the oldest church in Davao City that features a blend of Spanish and modern architecture. Another option is Museo Dabawenyo, a museum that showcases the history and culture of the Davao region and its people.<h3>Adventure and Entertainment</h3><p>If you are looking for some adventure and entertainment, you will not be disappointed by Davao City. You can visit People’s Park, a park that features colorful sculptures, fountains, playgrounds, and a cultural stage. You can also try some of the <b>Zipline Adventures</b>, where you can soar over forests, rivers, and valleys at thrilling speeds. Another option is <b>Eden Nature Park</b>, a park that offers various activities such as horseback riding, fishing, swimming, and skycycling.<h3>Food and Dining</h3><p>If you are looking for some delicious and diverse food options, you will not be disappointed by Davao City. You can visit <b>Bankerohan Public Market</b>, a market that offers fresh fruits such as durian, pomelo, mangosteen, and marang. You can also try some of the local specialties such as kinilaw (raw fish salad), bulca chong (beef soup with corn), sinuglaw (grilled pork belly with raw fish), durian cheesecake (cheesecake with durian flavor), and mangosteen tart (tart with mangosteen jam). Another option is to visit some of the famous restaurants in Davao City such as <b>Lachi’s Sans Rival Atbp</b>, <b>Tiny Kitchen</b>, <b>Claude’s Le Cafe de Ville</b>, and <b>Jack’s Ridge</b>.",
+        "info-title": "Davao City: A Fun and Fascinating Destination in the Philippines",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "restaurant",
+            "icon-name": "Famous Restaurants"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Cebu City",
+        "image": "./Resources/Assets/Info_Images/Cebu_PNGs/Cebu_1.png",
+        "thumbnail": "./Resources/Assets/Info_Images/Cebu_PNGs/Cebu_1.png",
+        "place": "Cebu",
+        "desc": "<p>Cebu City is one of the oldest and most vibrant cities in the Philippines, offering a blend of history, culture, nature, and entertainment for travelers. Whether you are looking for heritage sites, natural wonders, culinary delights, or urban attractions, you will find something to suit your interest in this charming city. Here are some of the places to visit in Cebu City:<h3>History and Culture</h3><p>If you are interested in history and culture, you will not be disappointed by Cebu City. You can visit Magellan’s Cross, a wooden cross that marks the spot where Ferdinand Magellan planted a cross and baptized the first Filipino Christians in 1521. You can also visit <b>Basilica Minore del Sto. Nino</b>, the oldest Roman Catholic church in the Philippines that houses the image of the Child Jesus that Magellan gave to Queen Juana of Cebu. Another historical attraction is<b> Fort San Pedro</b>, a triangular fort that was built by the Spanish in 1738 to protect the city from invaders.<h3>Nature and Parks</h3><p>If you are looking for a green escape from the urban hustle, you will find plenty of options in Cebu City. You can visit <b>Tops Lookout</b>, a hilltop park that offers panoramic views of the city and the sea. You can also visit <b>Sirao Flower Garden</b>, a garden that features colorful flowers such as celosia, sunflower, daisy, and lavender. Another option is <b>Mountain View Nature Park</b>, a park that offers various activities such as camping, swimming, zip-lining, and rappelling.<h3>Entertainment and Shopping</h3><p>If you are looking for some fun and excitement, you will find plenty of options in Cebu City. You can visit <b>Taoist Temple</b>, a temple that features Chinese architecture and culture, as well as a replica of the Great Wall of China. You can also try some of the <b>Sky Adventures</b>, where you can experience thrilling rides such as skywalk, edge coaster, tower zip, and sky drop. Another option is <b>SM Seaside City Cebu</b>, one of the largest shopping malls in the Philippines that offers various shops, restaurants, cinemas, and attractions such as an ice skating rink and a giant Ferris wheel.<h3>Food and Dining</h3><p>If you are looking for some delicious and diverse food options, you will find plenty of options in Cebu City. You can visit <b>Larsian BBQ</b>, a street food market that offers grilled meats and seafood on skewers. You can also try some of the local specialties such as Cebu Lechon (roasted pig), puso (hanging rice), sutukil (grilled fish), ngohiong (spring rolls), and bibingka (rice cake). Another option is to visit some of the famous restaurants in Cebu City such as <b>House of Lechon</b>, <b>STK ta Bay!</b>, <b>Cafe Laguna</b>, and <b>La Vie Parisienne</b>.",
+        "info-title": "Cebu City: A Charming and Cosmopolitan Destination in the Philippines",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "restaurant",
+            "icon-name": "Famous Restaurants"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      },
+      {
+        "name": "Zamboanga City",
+        "image": "./Resources/Assets/Info_Images/Zamboanga_PNGs/Zamboanga_FullImage.jpg",
+        "thumbnail": "./Resources/Assets/Info_Images/Zamboanga_PNGs/Zamboanga_2.png",
+        "place": "Zamboanga",
+        "desc": "<p>Zamboanga City is one of the most unique and diverse cities in the Philippines, offering a fusion of Spanish, Muslim, and Filipino influences in its architecture, cuisine, and culture. Whether you are looking for historical sites, natural attractions, shopping opportunities, or culinary delights, you will find something to suit your interest in this colorful city. Here are some of the places to visit in Zamboanga City:<h3>Historical Sites</h3><p>If you are interested in historical sites, you will not be disappointed by Zamboanga City. You can visit <b>Fort Pilar</b>, a 17th-century fort that was built by the Spanish to defend the city from pirates and invaders, and now serves as a shrine and museum. You can also visit <b>Zamboanga City Hall</b>, a neo-classical building that was constructed in 1905 and is considered one of the oldest city halls in the country. Another historical attraction is <b>Pettit Barracks</b>, a former American military base that was the site of the last stand of the Japanese forces during World War II.<h3>Natural Attractions</h3><p>If you are looking for natural attractions, you will not be disappointed by Zamboanga City. You can visit <b>Great Santa Cruz Island</b>, an island that boasts of a pink sand beach that is caused by the crushed red corals mixed with white sand. You can also visit <b>Merloquet Falls</b>, a waterfall that features a 20-meter drop and a natural pool surrounded by lush vegetation. Another option is <b>Pasonanca Park</b>, a park that offers various recreational facilities such as swimming pools, botanical gardens, tree houses, and camping grounds.<h3>Shopping Opportunities</h3><p>If you are looking for shopping opportunities, you will not be disappointed by Zamboanga City. You can visit <b>Canelar Barter Trade Center</b>, a market that offers various goods such as pearls, fabrics, handicrafts, and souvenirs at bargain prices. You can also visit <b>Yakan Weaving Village</b>, a village that showcases the traditional weaving skills of the Yakan tribe, who produce colorful and intricate fabrics. Another option is <b>KCC Mall de Zamboanga</b>, one of the largest shopping malls in the city that offers various shops, restaurants, cinemas, and attractions such as an ice skating rink and a giant Ferris wheel.<h3>Culinary Delights</h3><p>If you are looking for culinary delights, you will not be disappointed by Zamboanga City. You can visit <b>Alavar Seafood Restaurant</b>, a restaurant that serves fresh seafood dishes such as curacha (spanner crab), lobster, shrimp, and fish cooked with their signature alavar sauce. You can also try some of the local specialties such as satti (grilled meat on skewers with spicy sauce), tiula itum (black soup with beef or chicken), knickerbocker (fruit salad with ice cream), and zambo rolls (spring rolls with cheese). Another option is to visit <b>Lantaka Hotel by the Sea</b>, a hotel that offers a scenic view of the sea and serves halal-certified dishes such as chicken piyaparan (chicken with coconut milk and turmeric) and beef rendang (beef stew with coconut milk and spices).",
+        "info-title": "Zamboanga City: A Colorful and Cultural Destination in the Philippines",
+        "offers": [
+          {
+            "icon": "water_lux",
+            "icon-name": "Ocean View"
+          },
+          {
+            "icon": "landscape",
+            "icon-name": "Mountain View"
+          },
+          {
+            "icon": "photo_camera_back",
+            "icon-name": "Instagram Worthy Places"
+          },
+          {
+            "icon": "nightlife",
+            "icon-name": "Night Life"
+          },
+          {
+            "icon": "restaurant",
+            "icon-name": "Famous Restaurants"
+          },
+          {
+            "icon": "local_mall",
+            "icon-name": "Local Malls"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Parks",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/PARKS.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      }
+    ]
+  },
+  {
+    "title": "Falls",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/FALLS.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      }
+    ]
+  },
+  {
+    "title": "Landmarks",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/LANDMARKS.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      }
+    ]
+  },
+  {
+    "title": "Popular",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/POPULAR.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      }
+    ]
+  },
+  {
+    "title": "Vacation",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/VACATION.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      }
+    ]
+  },
+  {
+    "title": "Malls",
+    "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/MALLS.png",
+    "info": [
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      },
+      {
+        "name": "Boracay",
+        "thumbnail": "./Resources/Assets/Thumbnails/Search_PNG/BEACHES.png"
+      }
+    ]
+  }
 ]

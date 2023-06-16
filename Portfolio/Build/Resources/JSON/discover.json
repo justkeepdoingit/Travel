@@ -4,12 +4,13 @@
         "thumbnail": "./Resources/Assets/Thumbnails/Discover/Ariel-s-Point-Thumbnail.webp",
         "place": "Ariel's Point",
         "desc": "<p>With every passing year, the island of Boracay attracts more and more people around the globe who wish to witness its breathtaking scenery and experience the many exciting adventures that the island offers.</p><p>One of the most fascinating destinations in Boracay is Ariel’s Point, well known by adventurous travelers for its exhilarating cliff diving sites.  As featured on their Website, Ariel's Point sits atop the western point of Buruanga, an unspoiled fishing town on the shores of Aklan.  Ariel’s point serves as a window to the wonders of the Philippines with five cliff diving sites overlooking turquoise swimming holes, tropical marine life, lush mangrove forests, and volcanic rock formations.</p><p>Ariel’s Point is fast becoming the most exciting Boracay daytime activity for locals and foreigners alike. It is a postcard-worthy destination that is only a 30-minute boat ride away from Boracay Island.</p>"
-        ,"info-title": "Summer Capital of the Philippines",
+        ,"info-title": "Window to the wonders of the Philippines",
         "offers": [
-            {"icon": "ac_unit", "icon-name": "Weather"}, 
+            {"icon": "local_activity", "icon-name": "Local Activities"},
             {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "group", "icon-name": "Locals"},
+            {"icon": "water_lux", "icon-name": "Ocean View"},
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"}
         ]
     },
     {
@@ -17,12 +18,12 @@
         "thumbnail": "./Resources/Assets/Thumbnails/Discover/Rice-Terraces-Thumbnail.webp",
         "place": "Batad Rice Terraces",
         "desc": "<p>For 2,000 years, the high rice fields of the Ifugao have followed the contours of the mountains. The fruit of knowledge handed down from one generation to the next, and the expression of sacred traditions and a delicate social balance, they have helped to create a landscape of great beauty that expresses the harmony between humankind and the environment.</p><p>The Rice Terraces of the Philippine Cordilleras is an outstanding example of an evolved, living cultural landscape that can be traced as far back as two millennia ago in the pre-colonial Philippines. The terraces are located in the remote areas of the Philippine Cordillera mountain range on the northern island of Luzon, Philippine archipelago. While the historic terraces cover an extensive area, the inscribed property consists of five clusters of the most intact and impressive terraces, located in four municipalities.  They are all the product of the Ifugao ethnic group, a minority community that has occupied these mountains for thousands of years.</p>"
-        ,"info-title": "Summer Capital of the Philippines",
+        ,"info-title": "Rice Terraces of the Philippine Cordilleras",
         "offers": [
-            {"icon": "ac_unit", "icon-name": "Weather"}, 
+            {"icon": "Agriculture", "icon-name": "agriculture"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "group", "icon-name": "Locals"},
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"}
         ]
     },
     {
@@ -30,12 +31,12 @@
         "thumbnail": "./Resources/Assets/Thumbnails/Discover/Kalanggaman-Island-Thumbnail.webp",
         "place": "Kalanggaman Island",
         "desc": "<p>Kalanggaman Island is  shaped like a bird, reason why its name is derived from the local word 'langgam'  that means bird. This sandbar off the coast of Palompon, Leyte has gained popularity in recent years, but it has long been a local secret.  Kalanggaman is hemmed in by palm-studded, cream sand and lapped by swirling, turquoise sea.  It was already past summer when we visited, but this scruffy sandbar remained stunningly beautiful and blissfully devoid of luxury trappings. It’s a little crowded due to  the holiday, but we still managed to snag a spot.</p><p>Unknown to many tourists, Kalanggaman Island’s real gem is hidden underneath. This famous sandbar is actually a marine sanctuary oozing with gorgeous marine life and corals. In fact, it is a famous dive spots for divers coming from Malapascua Island, which is about 2 hours away by boat.  If you don’t know how to dive, you can snorkel in the reef drop-off near its shore.  Here’s my Kalanggaman Island Travel Guide with itinerary and budget to help you plan your trip.</p>"
-        ,"info-title": "Summer Capital of the Philippines",
+        ,"info-title": "Kalanggaman Island of Palompon Leyte",
         "offers": [
-            {"icon": "ac_unit", "icon-name": "Weather"}, 
-            {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "group", "icon-name": "Locals"},
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"},
+            {"icon": "local_activity", "icon-name": "Local Activities"},
+            {"icon": "water_lux", "icon-name": "Ocean View"}
         ]
     },
     {
@@ -43,12 +44,13 @@
         "thumbnail": "./Resources/Assets/Thumbnails/Discover/Mount-Pinatubo-Thumbnail.webp",
         "place": "Mount Pinatubo",
         "desc": "<p>Mount Pinatubo, a dormant volcano north of Manila, discharged millions of tons of sulfur dioxide in the air on June 1991, when it was awaken after more than 600 years of dormancy, on what is considered as the largest and most catastrophic volcanic eruption in the recent years.</p><p>Ashes covered the entire Luzon landmass and even reached Vietnam, Thailand, Malaysia and other neighboring Asian countries.</p><p>Close to a thousand perished, more than a hundred thousand lost their homes, and billion worth of crops were damaged. The eruption also brought down the world temperature by a few centigrade.</p>"
-        ,"info-title": "Summer Capital of the Philippines",
+        ,"info-title": "Stratovolcano of Zambales",
         "offers": [
-            {"icon": "ac_unit", "icon-name": "Weather"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
-            {"icon": "emoji_flags", "icon-name": "Landmarks"},
-            {"icon": "local_mall", "icon-name": "Local Malls"}
+            {"icon": "photo_camera_back", "icon-name": "Instagram Worthy Places"},
+            {"icon": "local_activity", "icon-name": "Local Activities"},
+            {"icon": "volcano", "icon-name": "Mount Pinatubo Crater"},
+            {"icon": "bath_outdoor", "icon-name": "Hot Springs"}
         ]
     },
     {
@@ -56,7 +58,7 @@
         "thumbnail": "./Resources/Assets/Thumbnails/Discover/Nacpan-Elnido-Thumbnail.webp",
         "place": "Nacpan Beach",
         "desc": "<p><b>What to do</b></p><p>Despite its popularity, Nacpan Beach generally only has a few visitors at a time. Hence, it is ideal for those who prefer more serene surroundings that are ideal for relaxing. Tourists can lie on the beach or settle in hammocks if they want to sunbathe.</p><p>Aside from swimming, visitors can also go surfing, kayaking, and stand-up paddleboarding. If you want to discover what kind of marine life lives off the shore, you can rent snorkeling gear from various stores and resorts along the beach.</p><p>Nacpan Beach is also known for the handful of local restaurants that offer various cuisines. There are also snacks for sale along the beach's entrance that are perfect for a pick-me-up while strolling along the sand.</p><p><b>Nearby tourist destinations</b></p><p>Nacpan is one-half of the popular twin beaches in the area—the other one is called Calitang Beach. The two beaches merge in a narrow sandbar that snakes into a lush hill, which offers an excellent view of Nacpan and Calitang. Tourists must trek to the southern portion of Nacpan to reach the hill where it meets with the smaller Calitang Beach. Calitang is also a stretch of white sand, but its waves are calmer than those in Nacpan. It is a fishing village with multi-colored boats anchored along the shore.</p><p><b>How to Get There</b></p><p>The most convenient and comfortable way is to book a shuttle service, which is usually part of organized tours going to Nacpan Beach. This is also a great way to meet other travelers as you will most likely share the service with other people.</p><p>For a more authentic island experience, you can hop on a tricycle to get to Nacpan Beach. While this is cheaper, expect a more bumpy ride as some parts of the road going to the beach are not fully cemented and are sometimes muddy.</p><p>You can also rent a motorbike and drive your way to Nacpan. Most budget travelers and thrill-seekers opt to do this since rental rates for an entire day are cheaper than a shuttle or tricycle service, plus they also have the freedom to go at their own pace and explore other places around Nacpan Beach and the rest of El Nido. As mentioned, some roads leading to Nacpan are still not in great condition, so be extra careful when choosing this transport option.</p><p><b>Best Time to Visit</b></p><p>It is highly recommended to visit Nacpan Beach during the country's summer season, which usually starts in March and ends in late May. But since this is peak travel season, expect to bump into a crowd of tourists — although it does not get too busy compared to other popular beach destinations in the Philippines.</p><p>If you are a fan of sunsets, it is best to arrive before 5 PM so you can catch the sun dip behind the horizon and paint the sky above Nacpan Beach beautiful shades of orange and pink.</p>"
-        ,"info-title": "Summer Capital of the Philippines",
+        ,"info-title": "One Half of the \"Twin Beaches\"",
         "offers": [
             {"icon": "ac_unit", "icon-name": "Weather"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
@@ -69,7 +71,7 @@
         "thumbnail": "./Resources/Assets/Thumbnails/Discover/Puerto-Princesa-Thumbnail.webp",
         "place": "Underground River",
         "desc": "<p>This park features a spectacular limestone karst landscape with an underground river. One of the river's distinguishing features is that it emerges directly into the sea, and its lower portion is subject to tidal influences. The area also represents a significant habitat for biodiversity conservation. The site contains a full 'mountain-to-sea' ecosystem and has some of the most important forests in Asia.</p><p>Puerto-Princesa Subterranean River National Park encompasses one of the world’s most impressive cave systems, featuring spectacular limestone karst landscapes, pristine natural beauty, and intact old-growth forests and distinctive wildlife. It is located in the south-western part of the Philippine Archipelago on the mid western coast of Palawan, approximately 76 km northwest of Puerto Princesa and 360 km southwest of Manila.</p><p>The property, comprising an area of approximately 22,202 ha, contains an 8.2km long underground river. The highlight of this subterranean river system is that it flows directly into the sea, with its brackish lower half subjected to tidal influence, distinguishing it as a significant natural global phenomenon. The river’s cavern presents remarkable, eye catching rock formations. The property contains a full mountain-to-sea ecosystem which provides significant habitat for biodiversity conservation and protects the most intact and noteworthy forests within the Palawan biogeographic province. Holding the distinction of being the first national park devolved and successfully managed by a local government unit, the park’s effective management system is a symbol of commitment by the Filipino people to the protection and conservation of their natural heritage.</p>"
-        ,"info-title": "Summer Capital of the Philippines",
+        ,"info-title": "Puerto Princesa Subterranean River National Park",
         "offers": [
             {"icon": "ac_unit", "icon-name": "Weather"}, 
             {"icon": "landscape", "icon-name": "Mountain View"}, 
