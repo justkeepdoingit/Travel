@@ -12,6 +12,7 @@
 @import url('./Components/Info/Info.css');
 @import url('./Components/Info/CardInfo/CardInfo.css');
 @import url('./Components/Info/BlogInfo/BlogInfo.css');
+@import url('./Components/Info/CategoryInfo/CategoryInfo.css');
 html,
 body,
 p {
@@ -40,6 +41,15 @@ h2 {
     --secondary: hsl(0, 11%, 4%);
     --light: #7A0BC0;
     --pink: #FA58B6;
+
+    --test: #32158A;
+    --test: #62666D;
+    --test: #5B7B13;
+    --test: #0C3B65;
+    --test: #34C343;
+    --test: #4237B6;
+    --test: #D255CD;
+    --test: #0C3B65;
 }
 
 .container {
@@ -50,7 +60,7 @@ h2 {
 
 .hero-container>div:not(.overlay) {
     position: relative;
-    z-index: 2;
+    z-index: 3;
 }
 /*
 .overlay {

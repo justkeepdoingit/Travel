@@ -2,7 +2,9 @@ function createEl(tag, attr = {}, contents, eventListener = {}) {
   let element = document.createElement(tag);
   if (attr)
     Object.entries(attr).map(([key, value]) => {
-      typeof value == "object" ? Object.entries(value).map(([innerKey, innerValue]) => (element[key][innerKey] = innerValue)) : element.setAttribute(key, value);
+      typeof value == "object"
+        ? Object.entries(value).map(([innerKey, innerValue]) => (element[key][innerKey] = innerValue))
+        : element.setAttribute(key, value);
     });
   if (eventListener) Object.entries(eventListener).map(([key, value]) => element.addEventListener(key, value));
   if (contents == null) return element;
@@ -63,8 +65,11 @@ window.addEventListener("scroll", (e) => {
 });
 
 function updateElement(selector, content) {
-  document.querySelector(`${selector}`).innerHTML = "";
-  Array.isArray(content) ? content.map((data) => document.querySelector(`${selector}`).append(data)) : document.querySelector(`${selector}`).append(content);
+  let check = document.querySelector(`${selector}`);
+  if (check != null) document.querySelector(`${selector}`).innerHTML = "";
+  Array.isArray(content)
+    ? content.map((data) => document.querySelector(`${selector}`).append(data))
+    : document.querySelector(`${selector}`).append(content);
 }
 function selectEl(selector) {
   return document.querySelector(selector);
