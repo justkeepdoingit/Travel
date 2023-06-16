@@ -9,6 +9,7 @@ import { Pagination } from "../../Components/Blogs/BlogPagination/Pagination.js"
 import { Info } from "../../Components/Info/Info.js";
 import { CardInfo } from "../../Components/Info/CardInfo/CardInfo.js";
 import { BlogInfo } from "../../Components/Info/BlogInfo/BlogInfo.js";
+import { CategoryInfo } from "../../Components/Info/CategoryInfo/CategoryInfo.js";
 export const NavComponent = Navigation,
   BtnComponent = Button,
   HeroComponent = HeroContent,
@@ -20,4 +21,5 @@ export const NavComponent = Navigation,
   PaginationComponent = Pagination,
   InfoComponent = Info,
   CardInfoComponent = CardInfo,
-  BlogInfoComponent = BlogInfo;
+  BlogInfoComponent = BlogInfo,
+  CategoryInfoComp = CategoryInfo;
